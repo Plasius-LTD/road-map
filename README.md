@@ -2,6 +2,17 @@
 
 Cross-repository planning and delivery tracking for Plasius packages.
 
+## Game Systems Planning
+
+- Canonical cross-repo inventory for the current game implementation audit:
+  - [`docs/game-systems-inventory.md`](./docs/game-systems-inventory.md)
+- Compact hierarchy view of active-development game systems:
+  - [`docs/game-systems-hierarchy.md`](./docs/game-systems-hierarchy.md)
+- High-level service-to-game bridge gap document:
+  - [`docs/game-service-bridge-gaps.md`](./docs/game-service-bridge-gaps.md)
+- Draft issue set for missing planning and integration coverage:
+  - [`docs/game-systems-missing-issue-drafts.md`](./docs/game-systems-missing-issue-drafts.md)
+
 ## Graph Package Rollout Governance
 
 - Release governance + compatibility matrix:
@@ -24,3 +35,4 @@ Cross-repository planning and delivery tracking for Plasius packages.
 - Changelog: [`CHANGELOG.md`](./CHANGELOG.md)
 - Release license: [`LICENSE`](./LICENSE)
 - ADR index: [`docs/adrs/index.md`](./docs/adrs/index.md)
+- TDR index: [`docs/tdrs/index.md`](./docs/tdrs/index.md)
