@@ -15,3 +15,12 @@ Cross-repository planning and delivery tracking for Plasius packages.
 
 - Active cross-repo execution board:
   - [Plasius-LTD Project #1](https://github.com/orgs/Plasius-LTD/projects/1)
+
+## Governance and contribution docs
+
+- Contribution guide: [`CONTRIBUTING.md`](./CONTRIBUTING.md)
+- Security policy: [`SECURITY.md`](./SECURITY.md)
+- Non-functional requirements: [`NFR.md`](./NFR.md)
+- Changelog: [`CHANGELOG.md`](./CHANGELOG.md)
+- Release license: [`LICENSE`](./LICENSE)
+- ADR index: [`docs/adrs/index.md`](./docs/adrs/index.md)
