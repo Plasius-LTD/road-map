@@ -103,6 +103,8 @@ The table below maps abuse scenarios to required controls and story-level verifi
 - Supports `NFR-Security` objectives in Story `#177`.
 - Provides verification hooks mapped to Tasks `201`/`202`/`203`/`204`/`205`.
 - Informs Task `#225` by defining sensitive logging redaction test scenarios.
+- References control ownership and periodic review cadence in
+  [`docs/security/profile-account-security-control-ownership-and-review-cadence.md`](./profile-account-security-control-ownership-and-review-cadence.md).
 
 ## Update history
 

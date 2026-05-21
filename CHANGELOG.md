@@ -11,3 +11,6 @@ All notable changes to this repository are tracked here.
 - Added a concrete private security reporting address to the security policy.
 - Added threat model and data-flow documentation for profile/account surfaces for
   F21.S1 (`docs/security/profile-account-threat-model.md`) supporting Story `#177`.
+- Added profile/account security control ownership and review cadence mapping
+  (`docs/security/profile-account-security-control-ownership-and-review-cadence.md`)
+  for Story `#177`.
