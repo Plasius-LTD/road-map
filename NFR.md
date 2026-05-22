@@ -17,6 +17,9 @@ This document records non-functional expectations for the planning repository.
   iterations.
 - Changes should preserve existing template compatibility unless explicitly
   versioned.
+- Timeout and deadline budgets for profile/account reliability controls are defined in
+  [`docs/security/profile-account-timeout-deadline-budgets.md`](./docs/security/profile-account-timeout-deadline-budgets.md),
+  including propagation and fallback behavior.
 
 ## 4. Accessibility and Comprehensibility
 

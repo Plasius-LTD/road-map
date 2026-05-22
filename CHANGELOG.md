@@ -30,3 +30,6 @@ All notable changes to this repository are tracked here.
 - Added profile/account security control ownership and review cadence mapping
   (`docs/security/profile-account-security-control-ownership-and-review-cadence.md`)
   for Story `#177`.
+- Added explicit timeout/deadline budgets and propagation expectations for
+  profile/account reliability workstreams (`docs/security/profile-account-timeout-deadline-budgets.md`)
+  for Story `#231` in NFR Feature `#171`.
