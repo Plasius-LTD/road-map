@@ -20,3 +20,13 @@ All notable changes to this repository are tracked here.
   standardization.
 - Added `NFR.md`, `CONTRIBUTING.md`, `SECURITY.md`, `LICENSE`, and `docs/adrs/`
   to align the planning repo with active org conventions.
+- Added a concrete private security reporting address to the security policy.
+- Added profile/account OWASP Top 10 + ASVS control matrix for threat-modeling evidence
+  (`docs/security/owasp-asvs-profile-account-controls.md`) supporting
+  Feature `#169` and Story `#177` work.
+- Added threat model and data-flow documentation for profile/account surfaces for
+  F21.S1 (`docs/security/profile-account-threat-model.md`) supporting Story
+  `#177`.
+- Added profile/account security control ownership and review cadence mapping
+  (`docs/security/profile-account-security-control-ownership-and-review-cadence.md`)
+  for Story `#177`.

@@ -5,7 +5,8 @@
 For security-related concerns in `road-map`:
 
 - Do not include vulnerable details in public issues or pull requests.
-- Contact maintainers privately before opening a public report.
+- Email [security@plasius.co.uk](mailto:security@plasius.co.uk) with a concise
+  private report before opening a public issue.
 
 ## Security Priorities for this Repo
 
