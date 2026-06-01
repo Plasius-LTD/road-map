@@ -40,8 +40,12 @@ It is the source of truth for Story [`#183`](https://github.com/Plasius-LTD/road
 
 ## Call-chain composition rules
 
-1. No request should allocate more than `3000ms` at the start without explicit
-   exception and ticketed approval.
+1. Standard interactive request paths must not allocate more than `3000ms` at
+   the start. The OAuth callback, upload, and background reconciliation classes
+   in the endpoint table are pre-approved high-latency classes and may use their
+   listed `5000ms`/`6000ms` hard timeouts when the class is recorded in telemetry
+   and the fallback/error contract is implemented. Any other request above
+   `3000ms` still requires explicit exception and ticketed approval.
 2. Inner dependency budgets must be <= half of parent hard timeout unless the call is
    classified as high-latency external dependency.
 3. If a child budget exceeds the parent remaining budget, the child must use the parent
