@@ -32,6 +32,7 @@ Cross-repository planning and delivery tracking for Plasius packages.
 - Profile/account security control mapping: [OWASP Top 10 + ASVS profile/account matrix](./docs/security/owasp-asvs-profile-account-controls.md)
 - Profile/account threat model and data-flow diagrams: [`docs/security/profile-account-threat-model.md`](./docs/security/profile-account-threat-model.md)
 - Profile/account security ownership and review cadence: [`docs/security/profile-account-security-control-ownership-and-review-cadence.md`](./docs/security/profile-account-security-control-ownership-and-review-cadence.md)
+- Profile/account timeout and deadline budgets for reliability workstreams: [`docs/security/profile-account-timeout-deadline-budgets.md`](./docs/security/profile-account-timeout-deadline-budgets.md)
 
 ## Governance and contribution docs
 
