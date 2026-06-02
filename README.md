@@ -33,6 +33,7 @@ Cross-repository planning and delivery tracking for Plasius packages.
 - Profile/account threat model and data-flow diagrams: [`docs/security/profile-account-threat-model.md`](./docs/security/profile-account-threat-model.md)
 - Profile/account security ownership and review cadence: [`docs/security/profile-account-security-control-ownership-and-review-cadence.md`](./docs/security/profile-account-security-control-ownership-and-review-cadence.md)
 - Profile/account timeout and deadline budgets for reliability workstreams: [`docs/security/profile-account-timeout-deadline-budgets.md`](./docs/security/profile-account-timeout-deadline-budgets.md)
+- Profile/account legal/control mapping for GDPR/UK GDPR/CCPA/SOC 2: [`docs/security/profile-account-compliance-control-mapping-gdpr-ccpa-soc2.md`](./docs/security/profile-account-compliance-control-mapping-gdpr-ccpa-soc2.md)
 
 ## Governance and contribution docs
 
