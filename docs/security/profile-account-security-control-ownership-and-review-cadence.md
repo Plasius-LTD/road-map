@@ -36,6 +36,8 @@ All security controls below apply to the profile/account auth, profile, identity
 - If any high-risk gap is identified, it is logged as a linked blocker issue in the
   `Plasius-LTD-site` project and moved to the top of the project queue.
 - Ownership changes require PR evidence and a project comment referencing updated control matrix entries.
+- Recurring control-review execution references are maintained in
+  [`docs/security/profile-account-compliance-runbook.md`](./profile-account-compliance-runbook.md).
 
 ## NFR alignment
 

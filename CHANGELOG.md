@@ -33,6 +33,8 @@ All notable changes to this repository are tracked here.
 - Added explicit timeout/deadline budgets and propagation expectations for
   profile/account reliability workstreams (`docs/security/profile-account-timeout-deadline-budgets.md`)
   for Story `#231` in NFR Feature `#171`.
+- Added a compliance runbook and recurring control-review checklist for profile/account
+  evidence under Story `#182` (`docs/security/profile-account-compliance-runbook.md`).
 - Added a compliance control mapping for profile/account flows covering GDPR / UK
   GDPR / CCPA / SOC 2 touchpoints (`docs/security/profile-account-compliance-control-mapping-gdpr-ccpa-soc2.md`)
   for Story `#182` in Feature `#170`.
