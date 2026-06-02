@@ -56,3 +56,5 @@ Feature `#170`.
 - [ ] Add a compliance review timestamp in the story evidence thread after each milestone.
 - [ ] Publish a concise legal-control matrix export for `NFR-Compliance` review.
 - [ ] Record remaining gaps and owners for unresolved evidence against each mapping row.
+- [ ] Keep the explicit criteria matrix in
+  [`docs/security/profile-account-compliance-criteria-matrix.md`](./profile-account-compliance-criteria-matrix.md) aligned whenever controls evolve.
