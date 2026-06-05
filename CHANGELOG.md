@@ -4,6 +4,9 @@ All notable changes to this repository are tracked here.
 
 ## [Unreleased]
 
+- Added profile/account latency and memory SLO baselines for Story `#192` in
+  `docs/security/profile-account-performance-slos.md`, including API, UI, and memory
+  stability targets.
 - Added a high-level game service bridge gap document covering the missing layer
   between account/profile services and gameplay runtime systems.
 - Added ADRs and TDRs for character lifecycle, world entry, authoritative
