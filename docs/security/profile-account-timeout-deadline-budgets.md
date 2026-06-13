@@ -4,7 +4,10 @@
 
 This document defines explicit timeout and deadline budgets for profile/account workflows
 before implementation in `plasius-ltd-site` and supporting services.
-It is the source of truth for Story [`#183`](https://github.com/Plasius-LTD/road-map/issues/183).
+It is the source of truth for Story [`#183`](https://github.com/Plasius-LTD/road-map/issues/183)
+and the route/ownership baseline extended by Task
+[`#280`](https://github.com/Plasius-LTD/road-map/issues/280) under Story
+[`#192`](https://github.com/Plasius-LTD/road-map/issues/192).
 
 ## Budget principles
 
@@ -25,6 +28,23 @@ It is the source of truth for Story [`#183`](https://github.com/Plasius-LTD/road
 | OAuth callback | Identity provider callback exchange and verification | `2500ms` | `5000ms` | Continue callback state machine and surface verification failure state |
 | Uploads | Avatar upload initialization, blob stage/commit, content validation | `3000ms` | `6000ms` | Retry safe checkpoint, resumable upload messaging |
 | Background reconciliation | Deletion queue worker, profile retention jobs, policy sweep | `2000ms` | `5000ms` | Fail item fast, emit queue retry with bounded attempts |
+
+## Route and endpoint ownership matrix
+
+Owners below are accountable for keeping the budget current, implementing the fallback
+contract, and providing benchmark or incident evidence when the budget changes.
+
+| Route or endpoint surface | Endpoint class | Soft budget | Hard timeout | Primary owner | Backup owner | Evidence / notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| `/profile` shell bootstrap and settings page hydration | Interactive read | `800ms` | `1500ms` | Platform App Owners (`frontend`) | Backend Platform | Keep aligned with profile shell and settings-page perf marks in `docs/security/profile-account-performance-slos.md` |
+| `GET /profile` and linked-identity/settings read projections | Interactive read | `800ms` | `1500ms` | Backend Platform | Platform App Owners (`frontend`) | Query shaping and cache revalidation must preserve interactive-read fallback behavior |
+| `PATCH /profile` editable field saves | Interactive update | `1200ms` | `2500ms` | Platform App Owners (`frontend`) | Backend Platform | Preserve user input and deterministic retry state on timeout |
+| Linked-identity link/promote/unlink mutations | Interactive update | `1200ms` | `2500ms` | Backend Platform | Identity/Directory Owner | Includes ownership validation, notification emission, and audit-write budget usage |
+| MFA commit and step-up confirmation callbacks | Security-sensitive mutation | `1500ms` | `3000ms` | Backend Platform | Security Engineering | Must keep session/profile mutation state coherent when verification expires or times out |
+| `/oauth/logout` and server-side session/token revocation | Security-sensitive mutation | `1500ms` | `3000ms` | Backend Platform | Platform Security | Logout fallback must end in a safe unauthenticated client state even on remote failure |
+| OAuth provider callback exchange and verification endpoints | OAuth callback | `2500ms` | `5000ms` | Identity/Directory Owner | Security Engineering | Exception-class route; provider latency evidence required for any budget increase |
+| Avatar upload init/stage/commit endpoints | Uploads | `3000ms` | `6000ms` | Media/Storage Platform | Platform App Owners (`frontend`) | Resumable upload checkpoints and MIME/size validation remain mandatory |
+| Deletion, retention, and reconciliation workers | Background reconciliation | `2000ms` | `5000ms` | Backend Platform | SRE | Queue retries must remain bounded and observable for overdue work items |
 
 ## Dependency budgets by client type
 

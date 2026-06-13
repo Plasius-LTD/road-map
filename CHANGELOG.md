@@ -4,6 +4,9 @@ All notable changes to this repository are tracked here.
 
 ## [Unreleased]
 
+- Added explicit route and endpoint ownership assignments to the profile/account
+  timeout budget matrix in `docs/security/profile-account-timeout-deadline-budgets.md`
+  for Task `#280` under Story `#192`.
 - Added profile/account latency and memory SLO baselines for Story `#192` in
   `docs/security/profile-account-performance-slos.md`, including API, UI, and memory
   stability targets.
