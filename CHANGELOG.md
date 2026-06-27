@@ -4,6 +4,9 @@ All notable changes to this repository are tracked here.
 
 ## [Unreleased]
 
+- Added road-map ADR search-index tooling and generated JSON/Markdown inspection
+  outputs for Task `Plasius-LTD/road-map#520` under Feature
+  `Plasius-LTD/plasius-ltd-site#1131`.
 - Added explicit route and endpoint ownership assignments to the profile/account
   timeout budget matrix in `docs/security/profile-account-timeout-deadline-budgets.md`
   for Task `#280` under Story `#192`.

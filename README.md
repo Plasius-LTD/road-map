@@ -27,6 +27,25 @@ Cross-repository planning and delivery tracking for Plasius packages.
 - Active cross-repo execution board:
   - [Plasius-LTD Project #1](https://github.com/orgs/Plasius-LTD/projects/1)
 
+## ADR Search Index
+
+- Generated cross-repository ADR review index:
+  - [`docs/adr-search-index.md`](./docs/adr-search-index.md)
+  - [`docs/adr-search-index.json`](./docs/adr-search-index.json)
+- Tooling design and scan rules:
+  - [`docs/adr-search-index-tooling.md`](./docs/adr-search-index-tooling.md)
+- Regenerate from the `road-map` repo root:
+
+  ```sh
+  npm run adr:index
+  ```
+
+- Validate committed generated outputs are current:
+
+  ```sh
+  npm run adr:index:check
+  ```
+
 ## Security readiness references
 
 - Profile/account security control mapping: [OWASP Top 10 + ASVS profile/account matrix](./docs/security/owasp-asvs-profile-account-controls.md)
