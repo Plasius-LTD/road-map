@@ -1,0 +1,17 @@
+{
+  "name": "@plasius/road-map",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Cross-repository planning, governance, and design-map tooling for Plasius repositories.",
+  "type": "module",
+  "scripts": {
+    "adr:index": "node tools/adr-index/cli.mjs",
+    "adr:index:check": "node tools/adr-index/cli.mjs --check",
+    "build": "npm run adr:index:check",
+    "test": "node --test tools/adr-index/test/*.test.mjs",
+    "typecheck": "node --check tools/adr-index/cli.mjs && node --check tools/adr-index/indexer.mjs && node --check tools/adr-index/test/indexer.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
