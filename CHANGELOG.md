@@ -4,6 +4,8 @@ All notable changes to this repository are tracked here.
 
 ## [Unreleased]
 
+- Added a Node 24 runtime baseline, `c8`-backed coverage command, and a pull
+  request / `main` CI workflow for the `road-map` ADR tooling repository.
 - Added road-map ADR search-index tooling and generated JSON/Markdown inspection
   outputs for Task `Plasius-LTD/road-map#520` under Feature
   `Plasius-LTD/plasius-ltd-site#1131`.

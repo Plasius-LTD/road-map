@@ -2,6 +2,22 @@
 
 Cross-repository planning and delivery tracking for Plasius packages.
 
+## Validation Baseline
+
+- Runtime baseline: Node 24 (`.nvmrc`, `package.json#engines`, `packageManager`).
+- Deterministic repo validation commands:
+
+  ```sh
+  npm run build
+  npm test
+  npm run typecheck
+  npm run test:coverage
+  ```
+
+- CI runs the same validation set for pull requests and pushes to `main`.
+- Coverage is reported with `c8`, produces `coverage/lcov.info`, and enforces
+  an 80% line/function floor for the ADR index tooling tests.
+
 ## Game Systems Planning
 
 - Canonical cross-repo inventory for the current game implementation audit:
@@ -41,6 +57,8 @@ Cross-repository planning and delivery tracking for Plasius packages.
   ```
 
 - Validate committed generated outputs are current:
+  This remains a workspace-level check for multi-repository review environments,
+  rather than the deterministic CI baseline for this repository.
 
   ```sh
   npm run adr:index:check
