@@ -7,11 +7,16 @@
   "scripts": {
     "adr:index": "node tools/adr-index/cli.mjs",
     "adr:index:check": "node tools/adr-index/cli.mjs --check",
-    "build": "npm run adr:index:check",
+    "build": "node --check tools/adr-index/cli.mjs && node --check tools/adr-index/indexer.mjs",
     "test": "node --test tools/adr-index/test/*.test.mjs",
-    "typecheck": "node --check tools/adr-index/cli.mjs && node --check tools/adr-index/indexer.mjs && node --check tools/adr-index/test/indexer.test.mjs"
+    "test:coverage": "c8 --reporter=text --reporter=lcov --reports-dir coverage --lines 80 --functions 80 node --test tools/adr-index/test/*.test.mjs",
+    "typecheck": "node --check tools/adr-index/cli.mjs && node --check tools/adr-index/indexer.mjs && node --check tools/adr-index/test/indexer.test.mjs && node --check tools/adr-index/test/cli.test.mjs && node --check tools/adr-index/test/render.test.mjs"
   },
+  "packageManager": "npm@11.6.2",
   "engines": {
-    "node": ">=20"
+    "node": ">=24"
+  },
+  "devDependencies": {
+    "c8": "^10.1.3"
   }
 }
