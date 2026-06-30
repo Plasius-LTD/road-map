@@ -4,6 +4,10 @@ All notable changes to this repository are tracked here.
 
 ## [Unreleased]
 
+- Added a `project:board` helper CLI, tests, and runbook for low-cost
+  `Plasius-LTD-site` Project discovery and targeted status updates, plus ADR
+  `0011` documenting the cursor-checkpoint query strategy for blocker Task
+  `#524`.
 - Added a Node 24 runtime baseline, `c8`-backed coverage command, and a pull
   request / `main` CI workflow for the `road-map` ADR tooling repository.
 - Added road-map ADR search-index tooling and generated JSON/Markdown inspection
