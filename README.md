@@ -42,6 +42,12 @@ Cross-repository planning and delivery tracking for Plasius packages.
 
 - Active cross-repo execution board:
   - [Plasius-LTD Project #1](https://github.com/orgs/Plasius-LTD/projects/1)
+- Low-cost backlog automation runbook + helper CLI:
+  - [`docs/project-board-automation.md`](./docs/project-board-automation.md)
+
+  ```sh
+  npm run project:board -- --help
+  ```
 
 ## ADR Search Index
 
