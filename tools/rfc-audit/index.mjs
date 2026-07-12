@@ -126,7 +126,8 @@ export function buildApplicability(repositories, standardsLock, policy) {
         testEvidence: finding.testEvidence,
         findingId: finding.id,
         severity: finding.severity,
-        remediation: finding.remediation
+        remediation: finding.remediation,
+        remediationReferences: finding.remediationReferences ?? []
       };
       if (row) Object.assign(row, replacement); else rows.push(replacement);
     }
@@ -170,7 +171,7 @@ export function renderReport(audit) {
     "",
     "| Severity | Finding | RFC section | Repositories | State | Remediation |",
     "| --- | --- | --- | --- | --- | --- |",
-    ...findings.map((item) => `| ${item.severity} | ${item.id}: ${escapeCell(item.summary)} | ${item.standard} §${item.section} | ${item.repositories.join(", ")} | ${item.state} | ${escapeCell(item.remediation)} |`),
+    ...findings.map((item) => `| ${item.severity} | ${item.id}: ${escapeCell(item.summary)} | ${item.standard} §${item.section} | ${item.repositories.join(", ")} | ${item.state} | ${escapeCell(item.remediation)} References: ${(item.remediationReferences ?? []).join(", ")} |`),
     "",
     "## Repository applicability matrix",
     "",
@@ -261,7 +262,7 @@ export const stableJson = (value) => `${JSON.stringify(value, null, 2)}\n`;
 
 function baseRow(repository, standard, state, rationale, role = null) {
   if (!repository) throw new Error(`Finding for ${standard} references a repository absent from the manifest.`);
-  return { repository: repository.name, standard, section: null, requirement: null, role, state, rationale, owner: repository.owner, sourceEvidence: [], testEvidence: [], findingId: null, severity: null, remediation: null };
+  return { repository: repository.name, standard, section: null, requirement: null, role, state, rationale, owner: repository.owner, sourceEvidence: [], testEvidence: [], findingId: null, severity: null, remediation: null, remediationReferences: [] };
 }
 function textValue(block, tag) { return block.match(new RegExp(`<${tag}>([\\s\\S]*?)<\\/${tag}>`))?.[1]?.trim(); }
 function documentNumbers(block, tag) { const section = textValue(block, tag) ?? ""; return [...section.matchAll(/<doc-id>RFC(\d+)<\/doc-id>/g)].map((match) => Number(match[1])); }

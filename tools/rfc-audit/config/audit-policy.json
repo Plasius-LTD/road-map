@@ -25,6 +25,7 @@
       "sourceEvidence": ["oauth2-issuer/src/index.ts", "plasius-ltd-site/backend/src/lib/chatgpt-mcp-oauth-storage.ts"],
       "testEvidence": [],
       "remediation": "Per-repository Tasks required: emit and verify at+jwt while retaining a controlled migration path."
+      ,"remediationReferences": ["Plasius-LTD/oauth2-core#2", "Plasius-LTD/oauth2-core#3", "Plasius-LTD/oauth2-issuer#2", "Plasius-LTD/oauth2-issuer#3", "Plasius-LTD/plasius-ltd-site#1480", "Plasius-LTD/plasius-ltd-site#1481"]
     },
     {
       "id": "RFC-9449-DPOP-VALIDATION",
@@ -38,6 +39,7 @@
       "sourceEvidence": ["oauth2-issuer/src/index.ts"],
       "testEvidence": [],
       "remediation": "Disable the incomplete advertised mode or implement the complete RFC 9449 verification pipeline."
+      ,"remediationReferences": ["Plasius-LTD/oauth2-issuer#2", "Plasius-LTD/oauth2-issuer#3"]
     },
     {
       "id": "RFC-6749-CONFIDENTIAL-CLIENT-AUTH",
@@ -45,12 +47,13 @@
       "standard": "RFC6749",
       "section": "2.3.1, 3.2.1",
       "requirement": "MUST",
-      "repositories": ["oauth2-core", "oauth2-issuer"],
+      "repositories": ["oauth2-issuer"],
       "state": "nonconformant",
       "summary": "Metadata advertises client_secret_basic/client_secret_post and registration stores secrets, but token exchange does not authenticate them.",
-      "sourceEvidence": ["oauth2-core/src", "oauth2-issuer/src/index.ts"],
+      "sourceEvidence": ["oauth2-issuer/src/index.ts"],
       "testEvidence": [],
       "remediation": "Add constant-time confidential-client authentication or restrict advertised methods to none."
+      ,"remediationReferences": ["Plasius-LTD/oauth2-issuer#2", "Plasius-LTD/oauth2-issuer#3"]
     },
     {
       "id": "RFC-6797-PRODUCTION-HSTS",
@@ -64,6 +67,7 @@
       "sourceEvidence": ["api/src/middleware/transportSecurity.ts", "plasius-ltd-site/docs/adrs/adr-0016-security-header-baseline.md"],
       "testEvidence": ["2026-07-12 read-only HTTPS probes"],
       "remediation": "Trace the CDN/edge header path and restore the accepted HSTS policy through the approved deployment workflow."
+      ,"remediationReferences": ["Plasius-LTD/api#29", "Plasius-LTD/plasius-ltd-site#1480", "Plasius-LTD/plasius-ltd-site#1481"]
     },
     {
       "id": "RFC-9111-OFFLINE-NO-STORE",
@@ -77,6 +81,7 @@
       "sourceEvidence": ["offline-cache/src/index.ts", "plasius-ltd-site/frontend/public/offline-cache-worker.js"],
       "testEvidence": [],
       "remediation": "Refuse storage and reuse for no-store and add cache-directive contract tests."
+      ,"remediationReferences": ["Plasius-LTD/offline-cache#4", "Plasius-LTD/offline-cache#5", "Plasius-LTD/plasius-ltd-site#1480", "Plasius-LTD/plasius-ltd-site#1481"]
     },
     {
       "id": "RFC-5646-LANGUAGE-TAG-SUBSET",
@@ -90,6 +95,7 @@
       "sourceEvidence": ["schema/src/validation/languageCode.BCP47.ts", "translations/src/i18n/i18n.ts"],
       "testEvidence": [],
       "remediation": "Implement or clearly expose a standards-accurate validator in schema before updating consumers."
+      ,"remediationReferences": ["Plasius-LTD/schema#25", "Plasius-LTD/translations#28"]
     },
     {
       "id": "RFC-4648-RETURN-TO-ENCODING",
@@ -103,6 +109,7 @@
       "sourceEvidence": ["auth/src/lib/login.ts"],
       "testEvidence": [],
       "remediation": "Encode UTF-8 bytes and use a documented base64url or percent-encoded representation."
+      ,"remediationReferences": ["Plasius-LTD/auth#21", "Plasius-LTD/auth#22"]
     },
     {
       "id": "RFC-9110-RETRY-AFTER-PARSING",
@@ -116,6 +123,7 @@
       "sourceEvidence": ["analytics/src/journey/transport.ts", "auth/src/lib/authorizedFetch.ts"],
       "testEvidence": [],
       "remediation": "Require the delay-seconds grammar, retain HTTP-date support, and enforce an operational cap."
+      ,"remediationReferences": ["Plasius-LTD/auth#21", "Plasius-LTD/auth#22", "Plasius-LTD/analytics#31", "Plasius-LTD/analytics#32"]
     },
     {
       "id": "RFC-9562-UUID-COMPATIBILITY-REFERENCE",
@@ -129,6 +137,7 @@
       "sourceEvidence": ["schema/src/validation/uuid.RFC4122.ts"],
       "testEvidence": [],
       "remediation": "Preserve compatibility aliases while documenting the RFC 9562 successor and supported subset."
+      ,"remediationReferences": ["Plasius-LTD/schema#25"]
     }
   ]
 }
