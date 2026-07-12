@@ -140,13 +140,13 @@ test("inventories authenticated remote defaults and records local deltas", async
     await execFile("git", ["add", "README.md"], { cwd: checkout });
     await execFile("git", ["commit", "-m", "test"], { cwd: checkout });
     await execFile("git", ["clone", "--bare", checkout, bare]);
-    await execFile("git", ["remote", "add", "origin", "https://github.com/Test-Org/sample.git"], { cwd: checkout });
+    await execFile("git", ["remote", "add", "origin", "https://github.com/Plasius-LTD/sample.git"], { cwd: checkout });
     const head = (await execFile("git", ["rev-parse", "HEAD"], { cwd: checkout })).stdout.trim();
     globalThis.fetch = async () => ({
       ok: true,
-      json: async () => [{ name: "sample", full_name: "Test-Org/sample", archived: false, disabled: false, fork: false, clone_url: bare, default_branch: "main", html_url: "https://github.com/Test-Org/sample" }]
+      json: async () => [{ name: "sample", full_name: "Plasius-LTD/sample", archived: false, disabled: false, fork: false, clone_url: bare, default_branch: "main", html_url: "https://github.com/Plasius-LTD/sample" }]
     });
-    const policy = { owner: "Test-Org", roles: [{ id: "sample-role", repositories: ["sample"], standards: [] }] };
+    const policy = { owner: "Plasius-LTD", roles: [{ id: "sample-role", repositories: ["sample"], standards: [] }] };
     const rows = await inventoryRepositories({ workspaceRoot: directory, policy, githubToken: "test-token" });
     assert.equal(rows.length, 1);
     assert.equal(rows[0].pinnedCommit, head);

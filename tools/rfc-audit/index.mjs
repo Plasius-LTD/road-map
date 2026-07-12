@@ -194,8 +194,11 @@ export async function fetchJson(url, token) {
 }
 
 export async function inventoryRepositories({ workspaceRoot, policy, githubToken = process.env.GITHUB_TOKEN }) {
+  if (policy.owner !== "Plasius-LTD") {
+    throw new Error("RFC inventory is restricted to the governed Plasius-LTD organization.");
+  }
   const remote = githubToken
-    ? await fetchAllRepositories(policy.owner, githubToken)
+    ? await fetchAllRepositories(githubToken)
     : await repositoriesViaGitHubCli(policy.owner);
   const primary = remote.filter((repo) => !repo.archived && !repo.disabled && !repo.fork).sort((a, b) => a.name.localeCompare(b.name));
   const local = await localRepositories(workspaceRoot);
@@ -218,10 +221,10 @@ export async function inventoryRepositories({ workspaceRoot, policy, githubToken
   return repositories;
 }
 
-async function fetchAllRepositories(owner, token) {
+async function fetchAllRepositories(token) {
   const remote = [];
   for (let page = 1; ; page += 1) {
-    const batch = await fetchJson(`https://api.github.com/orgs/${owner}/repos?type=all&per_page=100&page=${page}`, token);
+    const batch = await fetchJson(`https://api.github.com/orgs/Plasius-LTD/repos?type=all&per_page=100&page=${page}`, token);
     remote.push(...batch);
     if (batch.length < 100) break;
   }
@@ -233,7 +236,7 @@ async function repositoriesViaGitHubCli(owner) {
     const { stdout } = await execFile("gh", ["api", "--paginate", "--slurp", `orgs/${owner}/repos?type=all&per_page=100`], { maxBuffer: 50 * 1024 * 1024 });
     return JSON.parse(stdout).flat();
   } catch {
-    return fetchAllRepositories(owner);
+    return fetchAllRepositories();
   }
 }
 
@@ -264,7 +267,10 @@ function textValue(block, tag) { return block.match(new RegExp(`<${tag}>([\\s\\S
 function documentNumbers(block, tag) { const section = textValue(block, tag) ?? ""; return [...section.matchAll(/<doc-id>RFC(\d+)<\/doc-id>/g)].map((match) => Number(match[1])); }
 function documentIds(block, tag) { const section = textValue(block, tag) ?? ""; return [...section.matchAll(/<doc-id>([^<]+)<\/doc-id>/g)].map((match) => match[1]); }
 function parseDate(block) { const section = textValue(block, "date") ?? ""; return { month: textValue(section, "month") ?? null, year: Number(textValue(section, "year")) || null }; }
-function decodeXml(value) { return value.replaceAll("&amp;", "&").replaceAll("&lt;", "<").replaceAll("&gt;", ">").replaceAll("&quot;", '"').replaceAll("&apos;", "'"); }
+function decodeXml(value) {
+  const entities = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'" };
+  return value.replace(/&(amp|lt|gt|quot|apos);/g, (_entity, name) => entities[name]);
+}
 function countBy(rows, key) { return rows.reduce((counts, row) => ({ ...counts, [row[key]]: (counts[row[key]] ?? 0) + 1 }), {}); }
 function escapeCell(value) { return String(value).replaceAll("|", "\\|").replaceAll("\n", " "); }
 async function remoteHead(url, branch) { const { stdout } = await execFile("git", ["ls-remote", url, `refs/heads/${branch}`]); const sha = stdout.trim().split(/\s+/)[0]; if (!sha) throw new Error(`Cannot resolve ${url}#${branch}.`); return sha; }
