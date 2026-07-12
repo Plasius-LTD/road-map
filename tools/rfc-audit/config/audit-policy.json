@@ -95,7 +95,7 @@
       "sourceEvidence": ["schema/src/validation/languageCode.BCP47.ts", "translations/src/i18n/i18n.ts"],
       "testEvidence": [],
       "remediation": "Implement or clearly expose a standards-accurate validator in schema before updating consumers."
-      ,"remediationReferences": ["Plasius-LTD/schema#25", "Plasius-LTD/translations#28"]
+      ,"remediationReferences": ["Plasius-LTD/schema#25", "Plasius-LTD/schema#26", "Plasius-LTD/translations#28"]
     },
     {
       "id": "RFC-4648-RETURN-TO-ENCODING",
@@ -137,7 +137,7 @@
       "sourceEvidence": ["schema/src/validation/uuid.RFC4122.ts"],
       "testEvidence": [],
       "remediation": "Preserve compatibility aliases while documenting the RFC 9562 successor and supported subset."
-      ,"remediationReferences": ["Plasius-LTD/schema#25"]
+      ,"remediationReferences": ["Plasius-LTD/schema#25", "Plasius-LTD/schema#26"]
     }
   ]
 }

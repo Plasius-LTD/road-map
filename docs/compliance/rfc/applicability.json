@@ -7349,6 +7349,7 @@
       "remediation": "Implement or clearly expose a standards-accurate validator in schema before updating consumers.",
       "remediationReferences": [
         "Plasius-LTD/schema#25",
+        "Plasius-LTD/schema#26",
         "Plasius-LTD/translations#28"
       ]
     },
@@ -7385,7 +7386,8 @@
       "severity": "low",
       "remediation": "Preserve compatibility aliases while documenting the RFC 9562 successor and supported subset.",
       "remediationReferences": [
-        "Plasius-LTD/schema#25"
+        "Plasius-LTD/schema#25",
+        "Plasius-LTD/schema#26"
       ]
     },
     {
@@ -7919,6 +7921,7 @@
       "remediation": "Implement or clearly expose a standards-accurate validator in schema before updating consumers.",
       "remediationReferences": [
         "Plasius-LTD/schema#25",
+        "Plasius-LTD/schema#26",
         "Plasius-LTD/translations#28"
       ]
     },
@@ -8209,6 +8212,7 @@
       "remediation": "Implement or clearly expose a standards-accurate validator in schema before updating consumers.",
       "remediationReferences": [
         "Plasius-LTD/schema#25",
+        "Plasius-LTD/schema#26",
         "Plasius-LTD/translations#28"
       ]
     },
@@ -8275,7 +8279,8 @@
       "testEvidence": [],
       "remediation": "Preserve compatibility aliases while documenting the RFC 9562 successor and supported subset.",
       "remediationReferences": [
-        "Plasius-LTD/schema#25"
+        "Plasius-LTD/schema#25",
+        "Plasius-LTD/schema#26"
       ]
     }
   ]
