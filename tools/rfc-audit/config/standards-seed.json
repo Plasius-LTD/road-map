@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "retrievalDate": "2026-07-12",
+  "published": [
+    2045, 2046, 3339, 3629, 3986, 4647, 4648, 5322, 5646, 6265,
+    6266, 6455, 6585, 6749, 6750, 6797, 7009, 7239, 7515, 7517,
+    7518, 7519, 7578, 7591, 7636, 8187, 8259, 8288, 8414, 8615,
+    8707, 8725, 8941, 9068, 9110, 9111, 9112, 9116, 9205, 9309,
+    9449, 9457, 9557, 9562, 9700, 9728
+  ],
+  "drafts": [
+    {
+      "id": "draft-ietf-oauth-v2-1-15",
+      "title": "The OAuth 2.1 Authorization Framework",
+      "revision": "15",
+      "status": "active-internet-draft",
+      "updated": "2026-03-02",
+      "expires": "2026-09-03",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-oauth-v2-1/"
+    }
+  ]
+}

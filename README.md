@@ -70,6 +70,26 @@ Cross-repository planning and delivery tracking for Plasius packages.
   npm run adr:index:check
   ```
 
+## RFC compliance audit
+
+- [Repository applicability matrix and verified gaps](./docs/compliance/rfc/report.md)
+- Machine-readable [repository pins](./docs/compliance/rfc/repositories.json),
+  [standards lock](./docs/compliance/rfc/standards.json), and
+  [classifications](./docs/compliance/rfc/applicability.json)
+- [Audit design](./docs/rfc-compliance-audit-design.md) and
+  [authority/drift ADR](./docs/adrs/adr-0012-rfc-compliance-authority-and-drift.md)
+
+Refresh uses the official RFC index and errata feed, resolves remote default
+branch commits, and records local differences separately:
+
+```sh
+npm run rfc:audit:refresh
+npm run rfc:audit:check
+```
+
+The monthly workflow is read-only: upstream drift fails for review and is never
+committed automatically.
+
 ## Security readiness references
 
 - Profile/account security control mapping: [OWASP Top 10 + ASVS profile/account matrix](./docs/security/owasp-asvs-profile-account-controls.md)
