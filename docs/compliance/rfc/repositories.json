@@ -1,0 +1,2308 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-12T00:00:00.000Z",
+  "repositories": [
+    {
+      "name": "ai",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/ai",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "574419e06e8d7a5d1e742e1e687ee2479219dab2",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "ai",
+            "branch": "main",
+            "head": "574419e06e8d7a5d1e742e1e687ee2479219dab2",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/ai"
+    },
+    {
+      "name": "ai-config",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/ai-config",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "9b5bab3335059793e8dd147201ccf5178043cf18",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "ai-config",
+            "branch": "main",
+            "head": "9b5bab3335059793e8dd147201ccf5178043cf18",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/ai-config"
+    },
+    {
+      "name": "ai-evals",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/ai-evals",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "d680be0eaef4bbf8b8b121759e0d862b8857c8cc",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "ai-evals",
+            "branch": "main",
+            "head": "d680be0eaef4bbf8b8b121759e0d862b8857c8cc",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/ai-evals"
+    },
+    {
+      "name": "ai-game",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/ai-game",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "79a9b2ca550945b20e436cb6584325d2f9a1f44d",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 6,
+        "summary": "6 checkout(s) differ from authoritative main",
+        "checkouts": [
+          {
+            "path": ".codex-ai-game-pr94",
+            "branch": "feature/project-19-guild-quest-contracts",
+            "head": "bd161a1f6f68242868d6d8f1fb06fc4462845d34",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 1
+          },
+          {
+            "path": "ai-game",
+            "branch": "feature/project-PVTI_lADODcyOBs4BQ2eWzgstthg-observed-event-contracts",
+            "head": "18f97cc35fb8752784f7215786227ecec22a55a7",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 1
+          },
+          {
+            "path": "ai-game-hw2-29",
+            "branch": "feature/project-PVTI-lADODcyOBs4BQ2eWzgs00zo-player-system-contracts",
+            "head": "84b1b4fa5cd173f7dc74e40cb8ffed5287948129",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 0
+          },
+          {
+            "path": "ai-game-mcc-guidance",
+            "branch": "feature/project-PVTI_lADODcyOBs4BQ2eWzgstti4-mcc-guidance-workspace",
+            "head": "4f03b516316e5637d60b9171c138f654d29cf863",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 1
+          },
+          {
+            "path": "ai-game-project-28",
+            "branch": "feature/project-28-apprenticeship-handoffs",
+            "head": "f88fcd3d98ac26ed81b1054c33cb50874ebca00b",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 0
+          },
+          {
+            "path": "ai-game-tutorial",
+            "branch": "feature/project-PVTI_lADODcyOBs4BQ2eWzgstti4-tutorial",
+            "head": "ad59361e5262622eb1a4e8457d25802f85e88b16",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 1
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/ai-game"
+    },
+    {
+      "name": "ai-governance",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/ai-governance",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "0c564fb6164a054a718d60fb7acdb64e738c6524",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "ai-governance",
+            "branch": "main",
+            "head": "0c564fb6164a054a718d60fb7acdb64e738c6524",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/ai-governance"
+    },
+    {
+      "name": "ai-mcp",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/ai-mcp",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "feffc071c8a47e42c9c0709e07b613d1c375ffa8",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "ai-mcp",
+            "branch": "main",
+            "head": "feffc071c8a47e42c9c0709e07b613d1c375ffa8",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/ai-mcp"
+    },
+    {
+      "name": "ai-moderation",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/ai-moderation",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "622b19f112cd0183be240037984820413302d65b",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "ai-moderation",
+            "branch": "main",
+            "head": "622b19f112cd0183be240037984820413302d65b",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/ai-moderation"
+    },
+    {
+      "name": "ai-providers",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/ai-providers",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "d9c063df9632aadb1e28c5814b327c57ca6ded8a",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "ai-providers",
+            "branch": "main",
+            "head": "d9c063df9632aadb1e28c5814b327c57ca6ded8a",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/ai-providers"
+    },
+    {
+      "name": "ai-rag",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/ai-rag",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "9aa6ddf7ab4c934c81c93b27e9c373114ec5fcab",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "ai-rag",
+            "branch": "main",
+            "head": "9aa6ddf7ab4c934c81c93b27e9c373114ec5fcab",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/ai-rag"
+    },
+    {
+      "name": "ai-router",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/ai-router",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "9d59a96eddbfeca6d85b5b62dc4e966df5543ff5",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "ai-router",
+            "branch": "main",
+            "head": "9d59a96eddbfeca6d85b5b62dc4e966df5543ff5",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/ai-router"
+    },
+    {
+      "name": "ai-speech",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/ai-speech",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "e71c1b53b97d5324aadfc50496323aa1a531a25e",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "ai-speech",
+            "branch": "main",
+            "head": "e71c1b53b97d5324aadfc50496323aa1a531a25e",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/ai-speech"
+    },
+    {
+      "name": "analytics",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/analytics",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "089de1082cc50ca1800857b234d40e13f1a2f2b5",
+      "roles": [
+        "http"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "1 checkout(s) differ from authoritative main",
+        "checkouts": [
+          {
+            "path": "analytics",
+            "branch": "feat/privacy-safe-causal-journeys",
+            "head": "031d1e5155db91df41a25cc3e1b74f650ff0fde7",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/analytics"
+    },
+    {
+      "name": "api",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/api",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "fb1388619d04fd528d40b384f5b76d26b3c64538",
+      "roles": [
+        "http",
+        "mime",
+        "oauth",
+        "structured-data",
+        "web-security"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "api",
+            "branch": "main",
+            "head": "fb1388619d04fd528d40b384f5b76d26b3c64538",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/api"
+    },
+    {
+      "name": "asset-contracts",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/asset-contracts",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "d33012599aad0b0e184af300c143c51062e2f997",
+      "roles": [
+        "mime",
+        "structured-data"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "asset-contracts",
+            "branch": "main",
+            "head": "d33012599aad0b0e184af300c143c51062e2f997",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/asset-contracts"
+    },
+    {
+      "name": "asset-mcp",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/asset-mcp",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "f4f3f052e718db7d9ced87295c837b3511d3925e",
+      "roles": [
+        "mime"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "asset-mcp",
+            "branch": "main",
+            "head": "f4f3f052e718db7d9ced87295c837b3511d3925e",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/asset-mcp"
+    },
+    {
+      "name": "asset-pipeline",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/asset-pipeline",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "38a13ddcef534165032c9fea0a7b4e691a4b979c",
+      "roles": [
+        "mime"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "asset-pipeline",
+            "branch": "main",
+            "head": "38a13ddcef534165032c9fea0a7b4e691a4b979c",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/asset-pipeline"
+    },
+    {
+      "name": "asset-processing",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/asset-processing",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "d41b37292ac1dddc53673c05014d3399224ac5d3",
+      "roles": [
+        "mime"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "asset-processing",
+            "branch": "main",
+            "head": "d41b37292ac1dddc53673c05014d3399224ac5d3",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/asset-processing"
+    },
+    {
+      "name": "asset-review",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/asset-review",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "2838333068d07cfe4c4bfa1b8ab9c6b3e5f6c7ad",
+      "roles": [
+        "mime"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "asset-review",
+            "branch": "main",
+            "head": "2838333068d07cfe4c4bfa1b8ab9c6b3e5f6c7ad",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/asset-review"
+    },
+    {
+      "name": "auth",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/auth",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "6e678edfa5ceb8524f18014bcc0a11ba069cbfa3",
+      "roles": [
+        "http",
+        "oauth",
+        "structured-data",
+        "web-security"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "auth",
+            "branch": "main",
+            "head": "6e678edfa5ceb8524f18014bcc0a11ba069cbfa3",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/auth"
+    },
+    {
+      "name": "chatbot",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/chatbot",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "77bb2a25adf7ea0d68cd65ccd7d1418e78deb7e8",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "chatbot",
+            "branch": "main",
+            "head": "77bb2a25adf7ea0d68cd65ccd7d1418e78deb7e8",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/chatbot"
+    },
+    {
+      "name": "dungeon-crafting",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/dungeon-crafting",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "30daa604cace888c12c6825fe29895732e3d84e8",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "dungeon-crafting",
+            "branch": "main",
+            "head": "30daa604cace888c12c6825fe29895732e3d84e8",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/dungeon-crafting"
+    },
+    {
+      "name": "entity-manager",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/entity-manager",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "e9fcd9f71222addeaafafb9d2617a220ea0fb437",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "entity-manager",
+            "branch": "main",
+            "head": "e9fcd9f71222addeaafafb9d2617a220ea0fb437",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/entity-manager"
+    },
+    {
+      "name": "environment",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/environment",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "66b7da6de7e64b09304fbaed7417a5f46a884564",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "environment",
+            "branch": "main",
+            "head": "66b7da6de7e64b09304fbaed7417a5f46a884564",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/environment"
+    },
+    {
+      "name": "error",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/error",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "12582cac9274a0074c065bef0c7394a0f72dbf76",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "error",
+            "branch": "main",
+            "head": "12582cac9274a0074c065bef0c7394a0f72dbf76",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/error"
+    },
+    {
+      "name": "game-audio",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/game-audio",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "50e7834051edb1ac6be68e3e14713e066f3894d2",
+      "roles": [
+        "mime"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "game-audio",
+            "branch": "main",
+            "head": "50e7834051edb1ac6be68e3e14713e066f3894d2",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/game-audio"
+    },
+    {
+      "name": "game-audio-react",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/game-audio-react",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "6149304f5a276b9bf31a47fbdbf71c35a521e6f7",
+      "roles": [
+        "mime"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "game-audio-react",
+            "branch": "main",
+            "head": "6149304f5a276b9bf31a47fbdbf71c35a521e6f7",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/game-audio-react"
+    },
+    {
+      "name": "game-audio-spatial",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/game-audio-spatial",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "d9b4aa1181259a9b3ba236f74305cc768e01e01d",
+      "roles": [
+        "mime"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "game-audio-spatial",
+            "branch": "main",
+            "head": "d9b4aa1181259a9b3ba236f74305cc768e01e01d",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/game-audio-spatial"
+    },
+    {
+      "name": "game-audio-web",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/game-audio-web",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "da53f52331c8c14cad398164a7f621fe19df2e5c",
+      "roles": [
+        "mime"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "game-audio-web",
+            "branch": "main",
+            "head": "da53f52331c8c14cad398164a7f621fe19df2e5c",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/game-audio-web"
+    },
+    {
+      "name": "gpu-camera",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-camera",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "1a569c434902810b191498f1c36ba652b2b564cb",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "1 checkout(s) differ from authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-camera",
+            "branch": "codex/multimodal-camera-rigs-release-20260711",
+            "head": "2ee2ccfa4b5e1a394259e6d783cb4b538cc5c284",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-camera"
+    },
+    {
+      "name": "gpu-camera-controls",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-camera-controls",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "5c786fcb5963ef8a722de5f74f1df04c46598db5",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "1 checkout(s) differ from authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-camera-controls",
+            "branch": "codex/multimodal-camera-controls-release-20260711",
+            "head": "d93dbed5ee59222551f33e56e7cc006f604c8e4c",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-camera-controls"
+    },
+    {
+      "name": "gpu-cloth",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-cloth",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "3ea15890c4c7af613f1ce8d955e847ab0bd6dcbc",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-cloth",
+            "branch": "main",
+            "head": "3ea15890c4c7af613f1ce8d955e847ab0bd6dcbc",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-cloth"
+    },
+    {
+      "name": "gpu-debug",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-debug",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "7648461372c958d14d0166d0436c01af2bb8856e",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-debug",
+            "branch": "main",
+            "head": "7648461372c958d14d0166d0436c01af2bb8856e",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-debug"
+    },
+    {
+      "name": "gpu-demo-viewer",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-demo-viewer",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "42f5c8eaa341308937212b4276e4752fa9ca1167",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-demo-viewer",
+            "branch": "main",
+            "head": "42f5c8eaa341308937212b4276e4752fa9ca1167",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-demo-viewer"
+    },
+    {
+      "name": "gpu-fluid",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-fluid",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "4bf1bb964a97b162149c7ed2ab8767d5fe84e7a4",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-fluid",
+            "branch": "main",
+            "head": "4bf1bb964a97b162149c7ed2ab8767d5fe84e7a4",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-fluid"
+    },
+    {
+      "name": "gpu-interaction",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-interaction",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "385335482c7d64bc2d94164f31194c2fb1bf0419",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-interaction",
+            "branch": "main",
+            "head": "385335482c7d64bc2d94164f31194c2fb1bf0419",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-interaction"
+    },
+    {
+      "name": "gpu-lighting",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-lighting",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "1436ec1de66b7e93a0b8f221947114df1155f117",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-lighting",
+            "branch": "main",
+            "head": "1436ec1de66b7e93a0b8f221947114df1155f117",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-lighting"
+    },
+    {
+      "name": "gpu-lock-free-queue",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-lock-free-queue",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "a484b95a5cec754f765cac7c8df9c708b60b629f",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpuLockFreeQueue",
+            "branch": "main",
+            "head": "a484b95a5cec754f765cac7c8df9c708b60b629f",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-lock-free-queue"
+    },
+    {
+      "name": "gpu-model-core",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-model-core",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "3272f3f7581176df3f611d7539f0953763e477e7",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-model-core",
+            "branch": "main",
+            "head": "3272f3f7581176df3f611d7539f0953763e477e7",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-model-core"
+    },
+    {
+      "name": "gpu-model-fbx",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-model-fbx",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "89e590c5a2cddc3c68a208d89e5b878f9a641127",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-model-fbx",
+            "branch": "main",
+            "head": "89e590c5a2cddc3c68a208d89e5b878f9a641127",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-model-fbx"
+    },
+    {
+      "name": "gpu-model-gltf",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-model-gltf",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "d44bc3662e7d672443a5fd16de60ec0f76218f69",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-model-gltf",
+            "branch": "main",
+            "head": "d44bc3662e7d672443a5fd16de60ec0f76218f69",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-model-gltf"
+    },
+    {
+      "name": "gpu-model-ifc",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-model-ifc",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "c5148c83758a4eb0d4940c7fc466b2e6011abcd1",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-model-ifc",
+            "branch": "main",
+            "head": "c5148c83758a4eb0d4940c7fc466b2e6011abcd1",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-model-ifc"
+    },
+    {
+      "name": "gpu-model-iges",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-model-iges",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "20c3f72ea051360ac2fd3f6bcf0ba7224d70edb1",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-model-iges",
+            "branch": "main",
+            "head": "20c3f72ea051360ac2fd3f6bcf0ba7224d70edb1",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-model-iges"
+    },
+    {
+      "name": "gpu-model-obj",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-model-obj",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "c95f1a0041aadaddeb833481cea58f46d1feb0fb",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-model-obj",
+            "branch": "main",
+            "head": "c95f1a0041aadaddeb833481cea58f46d1feb0fb",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-model-obj"
+    },
+    {
+      "name": "gpu-model-renderer",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-model-renderer",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "15b59c2eac81d6d03b72dc7a89466ffbf1225405",
+      "roles": [
+        "mime"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-model-renderer",
+            "branch": "main",
+            "head": "15b59c2eac81d6d03b72dc7a89466ffbf1225405",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-model-renderer"
+    },
+    {
+      "name": "gpu-model-runtime",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-model-runtime",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "8ed8efac7c609681f6aa63257e2bd7c15e43121b",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-model-runtime",
+            "branch": "main",
+            "head": "8ed8efac7c609681f6aa63257e2bd7c15e43121b",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-model-runtime"
+    },
+    {
+      "name": "gpu-model-step",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-model-step",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "29854f65689ce2202caec0398e25ac1a7c6039f1",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-model-step",
+            "branch": "main",
+            "head": "29854f65689ce2202caec0398e25ac1a7c6039f1",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-model-step"
+    },
+    {
+      "name": "gpu-particles",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-particles",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "80c25397b70e600b461651fdef29f5ba4701fd8f",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-particles",
+            "branch": "main",
+            "head": "80c25397b70e600b461651fdef29f5ba4701fd8f",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-particles"
+    },
+    {
+      "name": "gpu-performance",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-performance",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "1cfe92e8636937eb3899f3a51610ec6641208b75",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-performance",
+            "branch": "main",
+            "head": "1cfe92e8636937eb3899f3a51610ec6641208b75",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-performance"
+    },
+    {
+      "name": "gpu-physics",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-physics",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "949419a1f78b7f2780e1ea2d4c0eab864edbf95f",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-physics",
+            "branch": "main",
+            "head": "949419a1f78b7f2780e1ea2d4c0eab864edbf95f",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-physics"
+    },
+    {
+      "name": "gpu-renderer",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-renderer",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "b57418aa2f9a583c8d2112a1e3a2065bd25014ee",
+      "roles": [
+        "mime"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-renderer",
+            "branch": "main",
+            "head": "b57418aa2f9a583c8d2112a1e3a2065bd25014ee",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-renderer"
+    },
+    {
+      "name": "gpu-shared",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-shared",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "dac9f158cedfa8cf60f38d20fbc19c7c0874a3e1",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-shared",
+            "branch": "main",
+            "head": "dac9f158cedfa8cf60f38d20fbc19c7c0874a3e1",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-shared"
+    },
+    {
+      "name": "gpu-worker",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-worker",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "833d9a069cfa8ff357fbfb266c4ac2babed0fe18",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-worker",
+            "branch": "main",
+            "head": "833d9a069cfa8ff357fbfb266c4ac2babed0fe18",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-worker"
+    },
+    {
+      "name": "gpu-world-generator",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-world-generator",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "e5e2c2fc26c2a52248efb8fbd00e526f8745ec52",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-world-generator",
+            "branch": "main",
+            "head": "e5e2c2fc26c2a52248efb8fbd00e526f8745ec52",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-world-generator"
+    },
+    {
+      "name": "gpu-xr",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/gpu-xr",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "bb5b1e54177720010008cf896173e8d2c07cf7ae",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "1 checkout(s) differ from authoritative main",
+        "checkouts": [
+          {
+            "path": "gpu-xr",
+            "branch": "main",
+            "head": "bdd65ac43d585f5dede9a4b781ca61762a822cbe",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 7
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/gpu-xr"
+    },
+    {
+      "name": "graph-cache-redis",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/graph-cache-redis",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "369ec6814e6c6920e68e0921209aeb12ae0cc94f",
+      "roles": [
+        "http",
+        "structured-data"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "graph-cache-redis",
+            "branch": "main",
+            "head": "369ec6814e6c6920e68e0921209aeb12ae0cc94f",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/graph-cache-redis"
+    },
+    {
+      "name": "graph-client-core",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/graph-client-core",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "807f95ea765405b629b94d67bfce915b6e2097a9",
+      "roles": [
+        "http",
+        "structured-data"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "graph-client-core",
+            "branch": "main",
+            "head": "807f95ea765405b629b94d67bfce915b6e2097a9",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/graph-client-core"
+    },
+    {
+      "name": "graph-client-react",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/graph-client-react",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "3eec73104f952b65c44f11f134df0fa5b273948f",
+      "roles": [
+        "http",
+        "structured-data"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "graph-client-react",
+            "branch": "main",
+            "head": "3eec73104f952b65c44f11f134df0fa5b273948f",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/graph-client-react"
+    },
+    {
+      "name": "graph-contracts",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/graph-contracts",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "eb60d904ce0554a1787134e109df805f845ab5f2",
+      "roles": [
+        "http",
+        "structured-data"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "graph-contracts",
+            "branch": "main",
+            "head": "eb60d904ce0554a1787134e109df805f845ab5f2",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/graph-contracts"
+    },
+    {
+      "name": "graph-events",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/graph-events",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "ef497813e412b3fce88e51129a5cff4c084eebf6",
+      "roles": [
+        "http",
+        "structured-data"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "graph-events",
+            "branch": "main",
+            "head": "ef497813e412b3fce88e51129a5cff4c084eebf6",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/graph-events"
+    },
+    {
+      "name": "graph-gateway-core",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/graph-gateway-core",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "1487ac6f9a8706e21769a43c02243a6dc82a27a4",
+      "roles": [
+        "http",
+        "structured-data"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "graph-gateway-core",
+            "branch": "main",
+            "head": "1487ac6f9a8706e21769a43c02243a6dc82a27a4",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/graph-gateway-core"
+    },
+    {
+      "name": "graph-runtime-azure-functions",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/graph-runtime-azure-functions",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "e1866d7959eeaa5120d0c041e6c9aaf45c9390e7",
+      "roles": [
+        "http",
+        "structured-data"
+      ],
+      "localState": {
+        "checkoutCount": 2,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "graph-runtime-azure-functions",
+            "branch": "main",
+            "head": "e1866d7959eeaa5120d0c041e6c9aaf45c9390e7",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          },
+          {
+            "path": "graph-runtime-azure-functions-hw2-1ItQoC",
+            "branch": "main",
+            "head": "e1866d7959eeaa5120d0c041e6c9aaf45c9390e7",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/graph-runtime-azure-functions"
+    },
+    {
+      "name": "graph-write-coordinator",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/graph-write-coordinator",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "febb4eec330c8517b8f05c77e235c0a9ac2ac707",
+      "roles": [
+        "http",
+        "structured-data"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "graph-write-coordinator",
+            "branch": "main",
+            "head": "febb4eec330c8517b8f05c77e235c0a9ac2ac707",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/graph-write-coordinator"
+    },
+    {
+      "name": "hexagons",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/hexagons",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "19b15802842bdc48cfa98bff18d9d924f50c0dec",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "hexagons",
+            "branch": "main",
+            "head": "19b15802842bdc48cfa98bff18d9d924f50c0dec",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/hexagons"
+    },
+    {
+      "name": "images",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/images",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "8cfbbacc0b9cd1656d3c76b50d553aa53b95ed07",
+      "roles": [
+        "mime"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "images",
+            "branch": "main",
+            "head": "8cfbbacc0b9cd1656d3c76b50d553aa53b95ed07",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/images"
+    },
+    {
+      "name": "item-crafting",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/item-crafting",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "f0b042267a245b06a639c3ac4e6dbcc2c720df00",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "item-crafting",
+            "branch": "main",
+            "head": "f0b042267a245b06a639c3ac4e6dbcc2c720df00",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/item-crafting"
+    },
+    {
+      "name": "mcp-admin-contracts",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/mcp-admin-contracts",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "bddc22b3bdfb12e9c9ec56a72a7423fa86bdb538",
+      "roles": [
+        "structured-data"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "mcp-admin-contracts",
+            "branch": "main",
+            "head": "bddc22b3bdfb12e9c9ec56a72a7423fa86bdb538",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/mcp-admin-contracts"
+    },
+    {
+      "name": "nfr",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/nfr",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "a1661dfb256146558ded36c1b3bae267979efe28",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "nfr",
+            "branch": "main",
+            "head": "a1661dfb256146558ded36c1b3bae267979efe28",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/nfr"
+    },
+    {
+      "name": "oauth2-core",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/oauth2-core",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "1ce4a8f0386499342416ef12eda5de79327f9935",
+      "roles": [
+        "http",
+        "oauth",
+        "structured-data",
+        "web-security"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "oauth2-core",
+            "branch": "main",
+            "head": "1ce4a8f0386499342416ef12eda5de79327f9935",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/oauth2-core"
+    },
+    {
+      "name": "oauth2-issuer",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/oauth2-issuer",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "da09a194893d6815a384aedf4c19b0cb5d5c46c1",
+      "roles": [
+        "http",
+        "oauth",
+        "structured-data",
+        "web-security"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "oauth2-issuer",
+            "branch": "main",
+            "head": "da09a194893d6815a384aedf4c19b0cb5d5c46c1",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/oauth2-issuer"
+    },
+    {
+      "name": "offline-cache",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/offline-cache",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "826c26dbbc9a2dcf2b15fb16e08457fafa38cbfc",
+      "roles": [
+        "http"
+      ],
+      "localState": {
+        "checkoutCount": 0,
+        "summary": "not checked out",
+        "checkouts": []
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/offline-cache"
+    },
+    {
+      "name": "plasius-ltd-site",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/plasius-ltd-site",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "bdbc9efc5868a9310d692c46d1410aebd2dcd363",
+      "roles": [
+        "http",
+        "oauth",
+        "site-publication",
+        "web-security"
+      ],
+      "localState": {
+        "checkoutCount": 7,
+        "summary": "7 checkout(s) differ from authoritative main",
+        "checkouts": [
+          {
+            "path": "plasius-ltd-site",
+            "branch": "fix/chatgpt-mcp-oauth-rate-limit-timeout",
+            "head": "3b0c377a56db96215d8607c887f0db996c34650a",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 3
+          },
+          {
+            "path": "plasius-ltd-site-gpu-camera-controls-20260710",
+            "branch": "codex/generator-multimodal-camera-controls-production-20260711",
+            "head": "9e438af647406b687e61182af65cc41aafe29852",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 0
+          },
+          {
+            "path": "plasius-ltd-site-gpu-demo-shell-nav-pr",
+            "branch": "codex/restore-gpu-demo-shell-navigation-20260710",
+            "head": "fdf18ecb37ac04b2fdba354e873b1b9dedd570c9",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 0
+          },
+          {
+            "path": "plasius-ltd-site-hw2-1093",
+            "branch": "feature/project-202667578-denoiser-independence",
+            "head": "4b45b6815abd3e6a8233b49313d52d858e993170",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 0
+          },
+          {
+            "path": "plasius-ltd-site-hw2-450",
+            "branch": "feature/project-PVTI-lADODcyOBs4BQ2eWzgs0jbw-cached-graph",
+            "head": "e230d9c6d7598c2504d7aa72664403bbd1e70300",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 0
+          },
+          {
+            "path": "plasius-ltd-site-mcp-provider-signin",
+            "branch": "agent/mcp-chooser-no-transform",
+            "head": "3ca7c8d6dd8db9591b35aa396115c98cafd7f887",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 0
+          },
+          {
+            "path": "plasius-ltd-site-semantic-journeys",
+            "branch": "feat/project-1464-semantic-journeys",
+            "head": "d1a354f44810b4a3a26382e1a17194df9c2c67ef",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/plasius-ltd-site"
+    },
+    {
+      "name": "player-system",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/player-system",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "1d31b93a91e3dea2086ffacceb6f05ebbf1e3cb9",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "player-system",
+            "branch": "main",
+            "head": "1d31b93a91e3dea2086ffacceb6f05ebbf1e3cb9",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/player-system"
+    },
+    {
+      "name": "player-system-demo-viewer",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/player-system-demo-viewer",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "be64ce2dda1983ba4f617c5aba486ecce4d293c9",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "player-system-demo-viewer",
+            "branch": "main",
+            "head": "be64ce2dda1983ba4f617c5aba486ecce4d293c9",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/player-system-demo-viewer"
+    },
+    {
+      "name": "player-system-interface",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/player-system-interface",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "f0f6c988b647c84d582136566b570827c47986a5",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "player-system-interface",
+            "branch": "main",
+            "head": "f0f6c988b647c84d582136566b570827c47986a5",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/player-system-interface"
+    },
+    {
+      "name": "profile",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/profile",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "0617be22cbe91898214b202d3ff01ac207df265f",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "profile",
+            "branch": "main",
+            "head": "0617be22cbe91898214b202d3ff01ac207df265f",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/profile"
+    },
+    {
+      "name": "react-query",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/react-query",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "d0b848a11a7a4db666468135b13a7347b83ebdc3",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "react-query",
+            "branch": "main",
+            "head": "d0b848a11a7a4db666468135b13a7347b83ebdc3",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/react-query"
+    },
+    {
+      "name": "react-state",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/react-state",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "43d061cfffe44e50e226f360c4101ddf7326a03f",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "react-state",
+            "branch": "main",
+            "head": "43d061cfffe44e50e226f360c4101ddf7326a03f",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/react-state"
+    },
+    {
+      "name": "renderer",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/renderer",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "8367bd21fb09bdae97a3ea8ca2fa07c8cc6d5f07",
+      "roles": [
+        "mime"
+      ],
+      "localState": {
+        "checkoutCount": 0,
+        "summary": "not checked out",
+        "checkouts": []
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/renderer"
+    },
+    {
+      "name": "road-map",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/road-map",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "0685bdd2738e479d5c0b836f843714e293984dbe",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "1 checkout(s) differ from authoritative main",
+        "checkouts": [
+          {
+            "path": "road-map",
+            "branch": "feature/rfc-compliance-audit",
+            "head": "0685bdd2738e479d5c0b836f843714e293984dbe",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 9
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/road-map"
+    },
+    {
+      "name": "scene-animation",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/scene-animation",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "fea9f5f68baf3d034654e393254b9cb1f6719dab",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "scene-animation",
+            "branch": "main",
+            "head": "fea9f5f68baf3d034654e393254b9cb1f6719dab",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/scene-animation"
+    },
+    {
+      "name": "scene-layout",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/scene-layout",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "9b8242db393cf99ed283c2f7d33efa5244f9d821",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "scene-layout",
+            "branch": "main",
+            "head": "9b8242db393cf99ed283c2f7d33efa5244f9d821",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/scene-layout"
+    },
+    {
+      "name": "scene-object",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/scene-object",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "7c83492d0fb4b6250e7c01b4e59bfd8f06fd7b6f",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "scene-object",
+            "branch": "main",
+            "head": "7c83492d0fb4b6250e7c01b4e59bfd8f06fd7b6f",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/scene-object"
+    },
+    {
+      "name": "scene-runtime",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/scene-runtime",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "4d080d93c5ff9fa0735093553fb938175067639c",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "scene-runtime",
+            "branch": "main",
+            "head": "4d080d93c5ff9fa0735093553fb938175067639c",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/scene-runtime"
+    },
+    {
+      "name": "schema",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/schema",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "66d7c10de7dce924171d433c3c23a89c4b33ceef",
+      "roles": [
+        "structured-data"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "schema",
+            "branch": "main",
+            "head": "66d7c10de7dce924171d433c3c23a89c4b33ceef",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/schema"
+    },
+    {
+      "name": "sharedassets",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/sharedassets",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "ebaf7f0ff9c11e042d9dfba447abbaed4bb5cb9e",
+      "roles": [
+        "mime"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "sharedassets",
+            "branch": "main",
+            "head": "ebaf7f0ff9c11e042d9dfba447abbaed4bb5cb9e",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/sharedassets"
+    },
+    {
+      "name": "sharedcomponents",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/sharedcomponents",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "293edd2026708e144867542e4cf1ee4d8c481e9a",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "sharedcomponents",
+            "branch": "main",
+            "head": "293edd2026708e144867542e4cf1ee4d8c481e9a",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/sharedcomponents"
+    },
+    {
+      "name": "spellcraft",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/spellcraft",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "b6967e57c56fa2c04bd1e642cee68f733e342e5e",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "spellcraft",
+            "branch": "main",
+            "head": "b6967e57c56fa2c04bd1e642cee68f733e342e5e",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/spellcraft"
+    },
+    {
+      "name": "storage",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/storage",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "516613067a54ec5c14dccc0533d4cd5e1ffed42d",
+      "roles": [
+        "http",
+        "mime",
+        "structured-data"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "storage",
+            "branch": "main",
+            "head": "516613067a54ec5c14dccc0533d4cd5e1ffed42d",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/storage"
+    },
+    {
+      "name": "training",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/training",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "9a3fd20611e20fc0bacbec653806ee1b37811d57",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "training",
+            "branch": "main",
+            "head": "9a3fd20611e20fc0bacbec653806ee1b37811d57",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/training"
+    },
+    {
+      "name": "translations",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/translations",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "937afe859a05336fae542f3cc4c422e5b17bae40",
+      "roles": [
+        "structured-data"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "translations",
+            "branch": "main",
+            "head": "937afe859a05336fae542f3cc4c422e5b17bae40",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/translations"
+    },
+    {
+      "name": "ui-foundry",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/ui-foundry",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "143449ea0b47bd8f9a3113078f1c13a28bc6eb66",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "ui-foundry",
+            "branch": "main",
+            "head": "143449ea0b47bd8f9a3113078f1c13a28bc6eb66",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/ui-foundry"
+    },
+    {
+      "name": "video",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/video",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "d904452b551424549c75f3e5fec4b3090225707b",
+      "roles": [
+        "mime"
+      ],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "video",
+            "branch": "main",
+            "head": "d904452b551424549c75f3e5fec4b3090225707b",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/video"
+    },
+    {
+      "name": "voice",
+      "owner": "Plasius-LTD",
+      "slug": "Plasius-LTD/voice",
+      "lifecycle": "active",
+      "defaultBranch": "main",
+      "pinnedCommit": "af380d0367a12aa92053a934d6e308b0685dc964",
+      "roles": [],
+      "localState": {
+        "checkoutCount": 1,
+        "summary": "matches authoritative main",
+        "checkouts": [
+          {
+            "path": "voice",
+            "branch": "main",
+            "head": "af380d0367a12aa92053a934d6e308b0685dc964",
+            "matchesPinnedCommit": true,
+            "dirtyFiles": 0
+          }
+        ]
+      },
+      "remoteUrl": "https://github.com/Plasius-LTD/voice"
+    }
+  ]
+}

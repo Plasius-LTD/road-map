@@ -4,6 +4,11 @@ All notable changes to this repository are tracked here.
 
 ## [Unreleased]
 
+- Added the 93-repository RFC compliance manifest, official RFC/errata metadata
+  lock, applicability and verified-gap reports, deterministic audit tooling,
+  tests, ADR 0012, and a monthly read-only drift workflow for Task `#526` under
+  Feature `Plasius-LTD/plasius-ltd-site#1477`.
+
 - Added a `project:board` helper CLI, tests, and runbook for low-cost
   `Plasius-LTD-site` Project discovery and targeted status updates, plus ADR
   `0011` documenting the cursor-checkpoint query strategy for blocker Task

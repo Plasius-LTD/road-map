@@ -1,0 +1,2643 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "road-map/tools/rfc-audit",
+  "retrievalDate": "2026-07-12",
+  "authorities": {
+    "rfcIndex": "https://www.rfc-editor.org/rfc-index.xml",
+    "errata": "https://www.rfc-editor.org/errata.json"
+  },
+  "standards": [
+    {
+      "id": "RFC2045",
+      "number": 2045,
+      "title": "Multipurpose Internet Mail Extensions (MIME) Part One: Format of Internet Message Bodies",
+      "date": {
+        "month": "November",
+        "year": 1996
+      },
+      "status": "draft standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [
+        2184,
+        2231,
+        5335,
+        6532
+      ],
+      "obsoletes": [
+        1521,
+        1522,
+        1590
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc2045",
+      "technicalErrata": [
+        {
+          "id": 512,
+          "rfc": 2045,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "5.1",
+          "submitted": "2005-02-24",
+          "url": "https://www.rfc-editor.org/errata/eid512"
+        },
+        {
+          "id": 2586,
+          "rfc": 2045,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "1.",
+          "submitted": "2010-10-28",
+          "url": "https://www.rfc-editor.org/errata/eid2586"
+        },
+        {
+          "id": 3442,
+          "rfc": 2045,
+          "status": "Held for Document Update",
+          "type": "Editorial",
+          "section": "8.",
+          "submitted": "2013-01-03",
+          "url": "https://www.rfc-editor.org/errata/eid3442"
+        },
+        {
+          "id": 7120,
+          "rfc": 2045,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "2.4",
+          "submitted": "2022-09-07",
+          "url": "https://www.rfc-editor.org/errata/eid7120"
+        }
+      ]
+    },
+    {
+      "id": "RFC2046",
+      "number": 2046,
+      "title": "Multipurpose Internet Mail Extensions (MIME) Part Two: Media Types",
+      "date": {
+        "month": "November",
+        "year": 1996
+      },
+      "status": "draft standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [
+        2646,
+        3798,
+        5147,
+        6657,
+        8098
+      ],
+      "obsoletes": [
+        1521,
+        1522,
+        1590
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc2046",
+      "technicalErrata": [
+        {
+          "id": 507,
+          "rfc": 2046,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "5.1.5",
+          "submitted": "2003-10-04",
+          "url": "https://www.rfc-editor.org/errata/eid507"
+        },
+        {
+          "id": 508,
+          "rfc": 2046,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "Appendix A states: ",
+          "submitted": "2001-10-04",
+          "url": "https://www.rfc-editor.org/errata/eid508"
+        },
+        {
+          "id": 509,
+          "rfc": 2046,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "9",
+          "submitted": "2004-02-03",
+          "url": "https://www.rfc-editor.org/errata/eid509"
+        },
+        {
+          "id": 510,
+          "rfc": 2046,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "5.1.5",
+          "submitted": "2001-12-22",
+          "url": "https://www.rfc-editor.org/errata/eid510"
+        },
+        {
+          "id": 511,
+          "rfc": 2046,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "3",
+          "submitted": "2005-01-06",
+          "url": "https://www.rfc-editor.org/errata/eid511"
+        },
+        {
+          "id": 588,
+          "rfc": 2046,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "5.2.2.2",
+          "submitted": "2001-12-22",
+          "url": "https://www.rfc-editor.org/errata/eid588"
+        },
+        {
+          "id": 589,
+          "rfc": 2046,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "5.2.3.7",
+          "submitted": "2001-12-22",
+          "url": "https://www.rfc-editor.org/errata/eid589"
+        },
+        {
+          "id": 4609,
+          "rfc": 2046,
+          "status": "Held for Document Update",
+          "type": "Editorial",
+          "section": "3",
+          "submitted": "2016-02-01",
+          "url": "https://www.rfc-editor.org/errata/eid4609"
+        },
+        {
+          "id": 6582,
+          "rfc": 2046,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "4.1.4",
+          "submitted": "2021-05-15",
+          "url": "https://www.rfc-editor.org/errata/eid6582"
+        },
+        {
+          "id": 6776,
+          "rfc": 2046,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "5.1.1",
+          "submitted": "2021-12-05",
+          "url": "https://www.rfc-editor.org/errata/eid6776"
+        },
+        {
+          "id": 6800,
+          "rfc": 2046,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "5.1.4",
+          "submitted": "2021-12-27",
+          "url": "https://www.rfc-editor.org/errata/eid6800"
+        },
+        {
+          "id": 7341,
+          "rfc": 2046,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "5.2.3.7",
+          "submitted": "2023-02-07",
+          "url": "https://www.rfc-editor.org/errata/eid7341"
+        },
+        {
+          "id": 8667,
+          "rfc": 2046,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "4.1.2",
+          "submitted": "2025-12-02",
+          "url": "https://www.rfc-editor.org/errata/eid8667"
+        }
+      ]
+    },
+    {
+      "id": "RFC3339",
+      "number": 3339,
+      "title": "Date and Time on the Internet: Timestamps",
+      "date": {
+        "month": "July",
+        "year": 2002
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [
+        9557
+      ],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc3339",
+      "technicalErrata": [
+        {
+          "id": 293,
+          "rfc": 3339,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "5.1",
+          "submitted": "2005-05-26",
+          "url": "https://www.rfc-editor.org/errata/eid293"
+        },
+        {
+          "id": 1584,
+          "rfc": 3339,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "Appendix A",
+          "submitted": "2008-11-03",
+          "url": "https://www.rfc-editor.org/errata/eid1584"
+        },
+        {
+          "id": 3710,
+          "rfc": 3339,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "6",
+          "submitted": "2013-08-26",
+          "url": "https://www.rfc-editor.org/errata/eid3710"
+        },
+        {
+          "id": 4110,
+          "rfc": 3339,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "Appendix A",
+          "submitted": "2014-09-12",
+          "url": "https://www.rfc-editor.org/errata/eid4110"
+        },
+        {
+          "id": 5624,
+          "rfc": 3339,
+          "status": "Held for Document Update",
+          "type": "Editorial",
+          "section": "5.6",
+          "submitted": "2019-02-06",
+          "url": "https://www.rfc-editor.org/errata/eid5624"
+        },
+        {
+          "id": 5783,
+          "rfc": 3339,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "5.6",
+          "submitted": "2019-07-15",
+          "url": "https://www.rfc-editor.org/errata/eid5783"
+        },
+        {
+          "id": 6533,
+          "rfc": 3339,
+          "status": "Held for Document Update",
+          "type": "Editorial",
+          "section": "The Table of Contents says:",
+          "submitted": "2021-04-13",
+          "url": "https://www.rfc-editor.org/errata/eid6533"
+        }
+      ]
+    },
+    {
+      "id": "RFC3629",
+      "number": 3629,
+      "title": "UTF-8, a transformation format of ISO 10646",
+      "date": {
+        "month": "November",
+        "year": 2003
+      },
+      "status": "internet standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [
+        2279
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc3629",
+      "technicalErrata": []
+    },
+    {
+      "id": "RFC3986",
+      "number": 3986,
+      "title": "Uniform Resource Identifier (URI): Generic Syntax",
+      "date": {
+        "month": "January",
+        "year": 2005
+      },
+      "status": "internet standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [
+        1738
+      ],
+      "updatedBy": [
+        7320,
+        8820
+      ],
+      "obsoletes": [
+        1808,
+        2396,
+        2732
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc3986",
+      "technicalErrata": [
+        {
+          "id": 2033,
+          "rfc": 3986,
+          "status": "Held for Document Update",
+          "type": "Editorial",
+          "section": "3.3.",
+          "submitted": "2010-02-05",
+          "url": "https://www.rfc-editor.org/errata/eid2033"
+        },
+        {
+          "id": 2525,
+          "rfc": 3986,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "3.1",
+          "submitted": "2010-09-17",
+          "url": "https://www.rfc-editor.org/errata/eid2525"
+        },
+        {
+          "id": 2624,
+          "rfc": 3986,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "Appendix B",
+          "submitted": "2010-11-11",
+          "url": "https://www.rfc-editor.org/errata/eid2624"
+        },
+        {
+          "id": 2933,
+          "rfc": 3986,
+          "status": "Held for Document Update",
+          "type": "Editorial",
+          "section": "5.2.2.",
+          "submitted": "2011-08-13",
+          "url": "https://www.rfc-editor.org/errata/eid2933"
+        },
+        {
+          "id": 4547,
+          "rfc": 3986,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "5.4.2",
+          "submitted": "2015-12-01",
+          "url": "https://www.rfc-editor.org/errata/eid4547"
+        },
+        {
+          "id": 4789,
+          "rfc": 3986,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "5.2.3",
+          "submitted": "2016-08-31",
+          "url": "https://www.rfc-editor.org/errata/eid4789"
+        },
+        {
+          "id": 4942,
+          "rfc": 3986,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "3.2.2. Host",
+          "submitted": "2017-02-19",
+          "url": "https://www.rfc-editor.org/errata/eid4942"
+        },
+        {
+          "id": 5428,
+          "rfc": 3986,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "4.2",
+          "submitted": "2018-07-17",
+          "url": "https://www.rfc-editor.org/errata/eid5428"
+        },
+        {
+          "id": 7590,
+          "rfc": 3986,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "5.2.4",
+          "submitted": "2023-08-06",
+          "url": "https://www.rfc-editor.org/errata/eid7590"
+        }
+      ]
+    },
+    {
+      "id": "RFC4647",
+      "number": 4647,
+      "title": "Matching of Language Tags",
+      "date": {
+        "month": "September",
+        "year": 2006
+      },
+      "status": "best current practice",
+      "stream": "IETF",
+      "bcp": [
+        "BCP47"
+      ],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [
+        3066
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc4647",
+      "technicalErrata": [
+        {
+          "id": 8253,
+          "rfc": 4647,
+          "status": "Held for Document Update",
+          "type": "Editorial",
+          "section": "2 and 2.3",
+          "submitted": "2025-01-17",
+          "url": "https://www.rfc-editor.org/errata/eid8253"
+        },
+        {
+          "id": 8287,
+          "rfc": 4647,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "3.1",
+          "submitted": "2025-02-08",
+          "url": "https://www.rfc-editor.org/errata/eid8287"
+        },
+        {
+          "id": 8838,
+          "rfc": 4647,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "2.2",
+          "submitted": "2026-03-17",
+          "url": "https://www.rfc-editor.org/errata/eid8838"
+        }
+      ]
+    },
+    {
+      "id": "RFC4648",
+      "number": 4648,
+      "title": "The Base16, Base32, and Base64 Data Encodings",
+      "date": {
+        "month": "October",
+        "year": 2006
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [
+        3548
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc4648",
+      "technicalErrata": [
+        {
+          "id": 2837,
+          "rfc": 4648,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "16.2",
+          "submitted": "2011-06-15",
+          "url": "https://www.rfc-editor.org/errata/eid2837"
+        },
+        {
+          "id": 4889,
+          "rfc": 4648,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "6",
+          "submitted": "2016-12-14",
+          "url": "https://www.rfc-editor.org/errata/eid4889"
+        },
+        {
+          "id": 5855,
+          "rfc": 4648,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "10.",
+          "submitted": "2019-09-06",
+          "url": "https://www.rfc-editor.org/errata/eid5855"
+        },
+        {
+          "id": 7514,
+          "rfc": 4648,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "3.5",
+          "submitted": "2023-05-09",
+          "url": "https://www.rfc-editor.org/errata/eid7514"
+        },
+        {
+          "id": 8669,
+          "rfc": 4648,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "4",
+          "submitted": "2025-12-03",
+          "url": "https://www.rfc-editor.org/errata/eid8669"
+        }
+      ]
+    },
+    {
+      "id": "RFC5322",
+      "number": 5322,
+      "title": "Internet Message Format",
+      "date": {
+        "month": "October",
+        "year": 2008
+      },
+      "status": "draft standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [
+        4021
+      ],
+      "updatedBy": [
+        6854
+      ],
+      "obsoletes": [
+        2822
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc5322",
+      "technicalErrata": [
+        {
+          "id": 1766,
+          "rfc": 5322,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "3.4.1",
+          "submitted": "2009-04-16",
+          "url": "https://www.rfc-editor.org/errata/eid1766"
+        },
+        {
+          "id": 1905,
+          "rfc": 5322,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "4.1",
+          "submitted": "2009-10-09",
+          "url": "https://www.rfc-editor.org/errata/eid1905"
+        },
+        {
+          "id": 1906,
+          "rfc": 5322,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "4.1",
+          "submitted": "2009-10-10",
+          "url": "https://www.rfc-editor.org/errata/eid1906"
+        },
+        {
+          "id": 1908,
+          "rfc": 5322,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "4.2",
+          "submitted": "2009-10-11",
+          "url": "https://www.rfc-editor.org/errata/eid1908"
+        },
+        {
+          "id": 2515,
+          "rfc": 5322,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "Appendix A.5",
+          "submitted": "2010-09-10",
+          "url": "https://www.rfc-editor.org/errata/eid2515"
+        },
+        {
+          "id": 2579,
+          "rfc": 5322,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "Appendix A.5",
+          "submitted": "2010-10-18",
+          "url": "https://www.rfc-editor.org/errata/eid2579"
+        },
+        {
+          "id": 2726,
+          "rfc": 5322,
+          "status": "Held for Document Update",
+          "type": "Editorial",
+          "section": "3.3",
+          "submitted": "2011-02-21",
+          "url": "https://www.rfc-editor.org/errata/eid2726"
+        },
+        {
+          "id": 2950,
+          "rfc": 5322,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "3.6",
+          "submitted": "2011-08-30",
+          "url": "https://www.rfc-editor.org/errata/eid2950"
+        },
+        {
+          "id": 3048,
+          "rfc": 5322,
+          "status": "Held for Document Update",
+          "type": "Editorial",
+          "section": "3.6.6.  Rese",
+          "submitted": "2011-12-08",
+          "url": "https://www.rfc-editor.org/errata/eid3048"
+        },
+        {
+          "id": 3135,
+          "rfc": 5322,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "3.2.4",
+          "submitted": "2012-02-25",
+          "url": "https://www.rfc-editor.org/errata/eid3135"
+        },
+        {
+          "id": 3979,
+          "rfc": 5322,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "3.6.7; 4.5.7",
+          "submitted": "2014-04-30",
+          "url": "https://www.rfc-editor.org/errata/eid3979"
+        },
+        {
+          "id": 4692,
+          "rfc": 5322,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "3.2.4",
+          "submitted": "2016-05-13",
+          "url": "https://www.rfc-editor.org/errata/eid4692"
+        },
+        {
+          "id": 5867,
+          "rfc": 5322,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "4.5.7",
+          "submitted": "2019-10-01",
+          "url": "https://www.rfc-editor.org/errata/eid5867"
+        },
+        {
+          "id": 5905,
+          "rfc": 5322,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "3.3",
+          "submitted": "2019-11-13",
+          "url": "https://www.rfc-editor.org/errata/eid5905"
+        },
+        {
+          "id": 5918,
+          "rfc": 5322,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "2.2",
+          "submitted": "2019-11-26",
+          "url": "https://www.rfc-editor.org/errata/eid5918"
+        },
+        {
+          "id": 6639,
+          "rfc": 5322,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "3.3",
+          "submitted": "2021-07-12",
+          "url": "https://www.rfc-editor.org/errata/eid6639"
+        },
+        {
+          "id": 6920,
+          "rfc": 5322,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "2.1",
+          "submitted": "2022-04-05",
+          "url": "https://www.rfc-editor.org/errata/eid6920"
+        },
+        {
+          "id": 6921,
+          "rfc": 5322,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "2.1",
+          "submitted": "2022-04-05",
+          "url": "https://www.rfc-editor.org/errata/eid6921"
+        }
+      ]
+    },
+    {
+      "id": "RFC5646",
+      "number": 5646,
+      "title": "Tags for Identifying Languages",
+      "date": {
+        "month": "September",
+        "year": 2009
+      },
+      "status": "best current practice",
+      "stream": "IETF",
+      "bcp": [
+        "BCP47"
+      ],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [
+        4646
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc5646",
+      "technicalErrata": [
+        {
+          "id": 5457,
+          "rfc": 5646,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "2.2.9",
+          "submitted": "2018-08-12",
+          "url": "https://www.rfc-editor.org/errata/eid5457"
+        },
+        {
+          "id": 8711,
+          "rfc": 5646,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "3.1.5",
+          "submitted": "2026-01-22",
+          "url": "https://www.rfc-editor.org/errata/eid8711"
+        },
+        {
+          "id": 8712,
+          "rfc": 5646,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "3.5",
+          "submitted": "2026-01-22",
+          "url": "https://www.rfc-editor.org/errata/eid8712"
+        }
+      ]
+    },
+    {
+      "id": "RFC6265",
+      "number": 6265,
+      "title": "HTTP State Management Mechanism",
+      "date": {
+        "month": "April",
+        "year": 2011
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [
+        2965
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc6265",
+      "technicalErrata": [
+        {
+          "id": 3444,
+          "rfc": 6265,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "4.1.1",
+          "submitted": "2013-01-06",
+          "url": "https://www.rfc-editor.org/errata/eid3444"
+        },
+        {
+          "id": 3663,
+          "rfc": 6265,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "5.1.4",
+          "submitted": "2013-06-17",
+          "url": "https://www.rfc-editor.org/errata/eid3663"
+        },
+        {
+          "id": 4148,
+          "rfc": 6265,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "5.1.1",
+          "submitted": "2014-10-28",
+          "url": "https://www.rfc-editor.org/errata/eid4148"
+        },
+        {
+          "id": 5518,
+          "rfc": 6265,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "4.1.1",
+          "submitted": "2018-10-09",
+          "url": "https://www.rfc-editor.org/errata/eid5518"
+        },
+        {
+          "id": 6093,
+          "rfc": 6265,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "3",
+          "submitted": "2020-04-12",
+          "url": "https://www.rfc-editor.org/errata/eid6093"
+        },
+        {
+          "id": 7604,
+          "rfc": 6265,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "3.  Overview",
+          "submitted": "2023-08-15",
+          "url": "https://www.rfc-editor.org/errata/eid7604"
+        },
+        {
+          "id": 8242,
+          "rfc": 6265,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "4.1.1",
+          "submitted": "2025-01-06",
+          "url": "https://www.rfc-editor.org/errata/eid8242"
+        },
+        {
+          "id": 8877,
+          "rfc": 6265,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "5.1.1",
+          "submitted": "2026-04-13",
+          "url": "https://www.rfc-editor.org/errata/eid8877"
+        }
+      ]
+    },
+    {
+      "id": "RFC6266",
+      "number": 6266,
+      "title": "Use of the Content-Disposition Header Field in the Hypertext Transfer Protocol (HTTP)",
+      "date": {
+        "month": "June",
+        "year": 2011
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [
+        2616
+      ],
+      "updatedBy": [],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc6266",
+      "technicalErrata": [
+        {
+          "id": 3475,
+          "rfc": 6266,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "In Appendix B:",
+          "submitted": "2013-02-02",
+          "url": "https://www.rfc-editor.org/errata/eid3475"
+        }
+      ]
+    },
+    {
+      "id": "RFC6455",
+      "number": 6455,
+      "title": "The WebSocket Protocol",
+      "date": {
+        "month": "December",
+        "year": 2011
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [
+        7936,
+        8307,
+        8441
+      ],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc6455",
+      "technicalErrata": [
+        {
+          "id": 3150,
+          "rfc": 6455,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "4.1",
+          "submitted": "2012-03-07",
+          "url": "https://www.rfc-editor.org/errata/eid3150"
+        },
+        {
+          "id": 3227,
+          "rfc": 6455,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "7.4.1",
+          "submitted": "2012-05-16",
+          "url": "https://www.rfc-editor.org/errata/eid3227"
+        },
+        {
+          "id": 3432,
+          "rfc": 6455,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "5.7",
+          "submitted": "2012-12-18",
+          "url": "https://www.rfc-editor.org/errata/eid3432"
+        },
+        {
+          "id": 3433,
+          "rfc": 6455,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "11.3.2",
+          "submitted": "2012-12-20",
+          "url": "https://www.rfc-editor.org/errata/eid3433"
+        },
+        {
+          "id": 3473,
+          "rfc": 6455,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "4.1",
+          "submitted": "2013-01-31",
+          "url": "https://www.rfc-editor.org/errata/eid3473"
+        },
+        {
+          "id": 4398,
+          "rfc": 6455,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "4.1",
+          "submitted": "2015-06-24",
+          "url": "https://www.rfc-editor.org/errata/eid4398"
+        },
+        {
+          "id": 4672,
+          "rfc": 6455,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "5.6",
+          "submitted": "2016-04-18",
+          "url": "https://www.rfc-editor.org/errata/eid4672"
+        },
+        {
+          "id": 4919,
+          "rfc": 6455,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "7.4.1",
+          "submitted": "2017-01-28",
+          "url": "https://www.rfc-editor.org/errata/eid4919"
+        },
+        {
+          "id": 5288,
+          "rfc": 6455,
+          "status": "Reported",
+          "type": "Editorial",
+          "section": "5.2",
+          "submitted": "2018-03-20",
+          "url": "https://www.rfc-editor.org/errata/eid5288"
+        },
+        {
+          "id": 5498,
+          "rfc": 6455,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "11.2",
+          "submitted": "2018-09-14",
+          "url": "https://www.rfc-editor.org/errata/eid5498"
+        },
+        {
+          "id": 6997,
+          "rfc": 6455,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "4.3, 9.1",
+          "submitted": "2022-06-17",
+          "url": "https://www.rfc-editor.org/errata/eid6997"
+        },
+        {
+          "id": 7262,
+          "rfc": 6455,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "5.5.1",
+          "submitted": "2022-12-09",
+          "url": "https://www.rfc-editor.org/errata/eid7262"
+        },
+        {
+          "id": 7608,
+          "rfc": 6455,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "7.1.1",
+          "submitted": "2023-08-19",
+          "url": "https://www.rfc-editor.org/errata/eid7608"
+        }
+      ]
+    },
+    {
+      "id": "RFC6585",
+      "number": 6585,
+      "title": "Additional HTTP Status Codes",
+      "date": {
+        "month": "April",
+        "year": 2012
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [
+        2616
+      ],
+      "updatedBy": [],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc6585",
+      "technicalErrata": [
+        {
+          "id": 8181,
+          "rfc": 6585,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "GLOBAL",
+          "submitted": "2024-11-19",
+          "url": "https://www.rfc-editor.org/errata/eid8181"
+        }
+      ]
+    },
+    {
+      "id": "RFC6749",
+      "number": 6749,
+      "title": "The OAuth 2.0 Authorization Framework",
+      "date": {
+        "month": "October",
+        "year": 2012
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [
+        8252,
+        8996,
+        9700
+      ],
+      "obsoletes": [
+        5849
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc6749",
+      "technicalErrata": [
+        {
+          "id": 3446,
+          "rfc": 6749,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "1",
+          "submitted": "2013-01-07",
+          "url": "https://www.rfc-editor.org/errata/eid3446"
+        },
+        {
+          "id": 3500,
+          "rfc": 6749,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "4.1",
+          "submitted": "2013-02-26",
+          "url": "https://www.rfc-editor.org/errata/eid3500"
+        },
+        {
+          "id": 3780,
+          "rfc": 6749,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "3.2.1",
+          "submitted": "2013-11-04",
+          "url": "https://www.rfc-editor.org/errata/eid3780"
+        },
+        {
+          "id": 3904,
+          "rfc": 6749,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "11.2.2.",
+          "submitted": "2014-03-01",
+          "url": "https://www.rfc-editor.org/errata/eid3904"
+        },
+        {
+          "id": 4206,
+          "rfc": 6749,
+          "status": "Held for Document Update",
+          "type": "Editorial",
+          "section": "4.1",
+          "submitted": "2014-12-23",
+          "url": "https://www.rfc-editor.org/errata/eid4206"
+        },
+        {
+          "id": 4679,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "GLOBAL",
+          "submitted": "2016-04-29",
+          "url": "https://www.rfc-editor.org/errata/eid4679"
+        },
+        {
+          "id": 4697,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Editorial",
+          "section": "7.1",
+          "submitted": "2016-05-19",
+          "url": "https://www.rfc-editor.org/errata/eid4697"
+        },
+        {
+          "id": 4745,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "5.2",
+          "submitted": "2016-07-20",
+          "url": "https://www.rfc-editor.org/errata/eid4745"
+        },
+        {
+          "id": 4749,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "2.3.1",
+          "submitted": "2016-07-26",
+          "url": "https://www.rfc-editor.org/errata/eid4749"
+        },
+        {
+          "id": 4819,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "4.2.2",
+          "submitted": "2016-10-05",
+          "url": "https://www.rfc-editor.org/errata/eid4819"
+        },
+        {
+          "id": 4945,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Editorial",
+          "section": "4.1.4",
+          "submitted": "2017-02-21",
+          "url": "https://www.rfc-editor.org/errata/eid4945"
+        },
+        {
+          "id": 5234,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "2.1.",
+          "submitted": "2018-01-12",
+          "url": "https://www.rfc-editor.org/errata/eid5234"
+        },
+        {
+          "id": 5332,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "4.1",
+          "submitted": "2018-04-24",
+          "url": "https://www.rfc-editor.org/errata/eid5332"
+        },
+        {
+          "id": 5379,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Editorial",
+          "section": "5.1, 4.2.2",
+          "submitted": "2018-06-06",
+          "url": "https://www.rfc-editor.org/errata/eid5379"
+        },
+        {
+          "id": 5708,
+          "rfc": 6749,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "3.1 and 3.2",
+          "submitted": "2019-04-29",
+          "url": "https://www.rfc-editor.org/errata/eid5708"
+        },
+        {
+          "id": 5793,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "2.3.1",
+          "submitted": "2019-07-25",
+          "url": "https://www.rfc-editor.org/errata/eid5793"
+        },
+        {
+          "id": 5873,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "11.4",
+          "submitted": "2019-10-11",
+          "url": "https://www.rfc-editor.org/errata/eid5873"
+        },
+        {
+          "id": 6017,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "2.3.1",
+          "submitted": "2020-03-15",
+          "url": "https://www.rfc-editor.org/errata/eid6017"
+        },
+        {
+          "id": 6613,
+          "rfc": 6749,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "3.3",
+          "submitted": "2021-06-17",
+          "url": "https://www.rfc-editor.org/errata/eid6613"
+        },
+        {
+          "id": 6614,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Editorial",
+          "section": "5.1",
+          "submitted": "2021-06-17",
+          "url": "https://www.rfc-editor.org/errata/eid6614"
+        },
+        {
+          "id": 6615,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Editorial",
+          "section": "GLOBAL",
+          "submitted": "2021-06-17",
+          "url": "https://www.rfc-editor.org/errata/eid6615"
+        },
+        {
+          "id": 7429,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "2",
+          "submitted": "2023-04-20",
+          "url": "https://www.rfc-editor.org/errata/eid7429"
+        },
+        {
+          "id": 7631,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "3.2.1",
+          "submitted": "2023-09-05",
+          "url": "https://www.rfc-editor.org/errata/eid7631"
+        },
+        {
+          "id": 7642,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "1",
+          "submitted": "2023-09-17",
+          "url": "https://www.rfc-editor.org/errata/eid7642"
+        },
+        {
+          "id": 7715,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "4.2.2.1",
+          "submitted": "2023-11-29",
+          "url": "https://www.rfc-editor.org/errata/eid7715"
+        },
+        {
+          "id": 7716,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "4.2.2",
+          "submitted": "2023-11-29",
+          "url": "https://www.rfc-editor.org/errata/eid7716"
+        },
+        {
+          "id": 7823,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "3.2.1",
+          "submitted": "2024-02-26",
+          "url": "https://www.rfc-editor.org/errata/eid7823"
+        },
+        {
+          "id": 8722,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "1.5",
+          "submitted": "2026-01-28",
+          "url": "https://www.rfc-editor.org/errata/eid8722"
+        },
+        {
+          "id": 8790,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "3.1",
+          "submitted": "2026-03-01",
+          "url": "https://www.rfc-editor.org/errata/eid8790"
+        },
+        {
+          "id": 8791,
+          "rfc": 6749,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "3.2",
+          "submitted": "2026-03-01",
+          "url": "https://www.rfc-editor.org/errata/eid8791"
+        }
+      ]
+    },
+    {
+      "id": "RFC6750",
+      "number": 6750,
+      "title": "The OAuth 2.0 Authorization Framework: Bearer Token Usage",
+      "date": {
+        "month": "October",
+        "year": 2012
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [
+        8996,
+        9700
+      ],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc6750",
+      "technicalErrata": [
+        {
+          "id": 5335,
+          "rfc": 6750,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "2.1",
+          "submitted": "2018-04-26",
+          "url": "https://www.rfc-editor.org/errata/eid5335"
+        },
+        {
+          "id": 6161,
+          "rfc": 6750,
+          "status": "Reported",
+          "type": "Editorial",
+          "section": "4",
+          "submitted": "2020-05-08",
+          "url": "https://www.rfc-editor.org/errata/eid6161"
+        }
+      ]
+    },
+    {
+      "id": "RFC6797",
+      "number": 6797,
+      "title": "HTTP Strict Transport Security (HSTS)",
+      "date": {
+        "month": "November",
+        "year": 2012
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc6797",
+      "technicalErrata": []
+    },
+    {
+      "id": "RFC7009",
+      "number": 7009,
+      "title": "OAuth 2.0 Token Revocation",
+      "date": {
+        "month": "August",
+        "year": 2013
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc7009",
+      "technicalErrata": [
+        {
+          "id": 6663,
+          "rfc": 7009,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "2.1",
+          "submitted": "2021-08-22",
+          "url": "https://www.rfc-editor.org/errata/eid6663"
+        }
+      ]
+    },
+    {
+      "id": "RFC7239",
+      "number": 7239,
+      "title": "Forwarded HTTP Extension",
+      "date": {
+        "month": "June",
+        "year": 2014
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc7239",
+      "technicalErrata": [
+        {
+          "id": 5067,
+          "rfc": 7239,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "GLOBAL",
+          "submitted": "2017-07-12",
+          "url": "https://www.rfc-editor.org/errata/eid5067"
+        },
+        {
+          "id": 5275,
+          "rfc": 7239,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "4",
+          "submitted": "2018-03-06",
+          "url": "https://www.rfc-editor.org/errata/eid5275"
+        }
+      ]
+    },
+    {
+      "id": "RFC7515",
+      "number": 7515,
+      "title": "JSON Web Signature (JWS)",
+      "date": {
+        "month": "May",
+        "year": 2015
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc7515",
+      "technicalErrata": [
+        {
+          "id": 7767,
+          "rfc": 7515,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "6",
+          "submitted": "2024-01-17",
+          "url": "https://www.rfc-editor.org/errata/eid7767"
+        }
+      ]
+    },
+    {
+      "id": "RFC7517",
+      "number": 7517,
+      "title": "JSON Web Key (JWK)",
+      "date": {
+        "month": "May",
+        "year": 2015
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc7517",
+      "technicalErrata": [
+        {
+          "id": 6907,
+          "rfc": 7517,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "C.7",
+          "submitted": "2022-03-30",
+          "url": "https://www.rfc-editor.org/errata/eid6907"
+        }
+      ]
+    },
+    {
+      "id": "RFC7518",
+      "number": 7518,
+      "title": "JSON Web Algorithms (JWA)",
+      "date": {
+        "month": "May",
+        "year": 2015
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [
+        9864
+      ],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc7518",
+      "technicalErrata": [
+        {
+          "id": 6612,
+          "rfc": 7518,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": ".4",
+          "submitted": "2021-06-16",
+          "url": "https://www.rfc-editor.org/errata/eid6612"
+        },
+        {
+          "id": 8526,
+          "rfc": 7518,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "3.4.5",
+          "submitted": "2025-08-05",
+          "url": "https://www.rfc-editor.org/errata/eid8526"
+        },
+        {
+          "id": 8568,
+          "rfc": 7518,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "3.2",
+          "submitted": "2025-09-08",
+          "url": "https://www.rfc-editor.org/errata/eid8568"
+        },
+        {
+          "id": 8747,
+          "rfc": 7518,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "7.1.1",
+          "submitted": "2026-02-08",
+          "url": "https://www.rfc-editor.org/errata/eid8747"
+        }
+      ]
+    },
+    {
+      "id": "RFC7519",
+      "number": 7519,
+      "title": "JSON Web Token (JWT)",
+      "date": {
+        "month": "May",
+        "year": 2015
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [
+        7797,
+        8725
+      ],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc7519",
+      "technicalErrata": [
+        {
+          "id": 5906,
+          "rfc": 7519,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "7.2",
+          "submitted": "2019-11-13",
+          "url": "https://www.rfc-editor.org/errata/eid5906"
+        },
+        {
+          "id": 7720,
+          "rfc": 7519,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "4.1.6",
+          "submitted": "2023-12-01",
+          "url": "https://www.rfc-editor.org/errata/eid7720"
+        },
+        {
+          "id": 8060,
+          "rfc": 7519,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "7.2",
+          "submitted": "2024-07-31",
+          "url": "https://www.rfc-editor.org/errata/eid8060"
+        },
+        {
+          "id": 8225,
+          "rfc": 7519,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "7.2",
+          "submitted": "2024-12-31",
+          "url": "https://www.rfc-editor.org/errata/eid8225"
+        },
+        {
+          "id": 8388,
+          "rfc": 7519,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "13.2",
+          "submitted": "2025-04-21",
+          "url": "https://www.rfc-editor.org/errata/eid8388"
+        }
+      ]
+    },
+    {
+      "id": "RFC7578",
+      "number": 7578,
+      "title": "Returning Values from Forms: multipart/form-data",
+      "date": {
+        "month": "July",
+        "year": 2015
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [
+        2388
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc7578",
+      "technicalErrata": [
+        {
+          "id": 4676,
+          "rfc": 7578,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "4.6.",
+          "submitted": "2016-04-26",
+          "url": "https://www.rfc-editor.org/errata/eid4676"
+        },
+        {
+          "id": 5616,
+          "rfc": 7578,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "4.5",
+          "submitted": "2019-01-30",
+          "url": "https://www.rfc-editor.org/errata/eid5616"
+        },
+        {
+          "id": 7385,
+          "rfc": 7578,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "4.5",
+          "submitted": "2023-03-13",
+          "url": "https://www.rfc-editor.org/errata/eid7385"
+        }
+      ]
+    },
+    {
+      "id": "RFC7591",
+      "number": 7591,
+      "title": "OAuth 2.0 Dynamic Client Registration Protocol",
+      "date": {
+        "month": "July",
+        "year": 2015
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc7591",
+      "technicalErrata": [
+        {
+          "id": 7782,
+          "rfc": 7591,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "3.2.1",
+          "submitted": "2024-01-25",
+          "url": "https://www.rfc-editor.org/errata/eid7782"
+        },
+        {
+          "id": 7969,
+          "rfc": 7591,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "2.3",
+          "submitted": "2024-06-03",
+          "url": "https://www.rfc-editor.org/errata/eid7969"
+        }
+      ]
+    },
+    {
+      "id": "RFC7636",
+      "number": 7636,
+      "title": "Proof Key for Code Exchange by OAuth Public Clients",
+      "date": {
+        "month": "September",
+        "year": 2015
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc7636",
+      "technicalErrata": [
+        {
+          "id": 5687,
+          "rfc": 7636,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "5",
+          "submitted": "2019-04-09",
+          "url": "https://www.rfc-editor.org/errata/eid5687"
+        },
+        {
+          "id": 6179,
+          "rfc": 7636,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "7.3",
+          "submitted": "2020-05-18",
+          "url": "https://www.rfc-editor.org/errata/eid6179"
+        },
+        {
+          "id": 6471,
+          "rfc": 7636,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "7.1",
+          "submitted": "2021-03-10",
+          "url": "https://www.rfc-editor.org/errata/eid6471"
+        }
+      ]
+    },
+    {
+      "id": "RFC8187",
+      "number": 8187,
+      "title": "Indicating Character Encoding and Language for HTTP Header Field Parameters",
+      "date": {
+        "month": "September",
+        "year": 2017
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [
+        5987
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc8187",
+      "technicalErrata": []
+    },
+    {
+      "id": "RFC8259",
+      "number": 8259,
+      "title": "The JavaScript Object Notation (JSON) Data Interchange Format",
+      "date": {
+        "month": "December",
+        "year": 2017
+      },
+      "status": "internet standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [
+        7159
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc8259",
+      "technicalErrata": [
+        {
+          "id": 5210,
+          "rfc": 8259,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "GLOBAL",
+          "submitted": "2017-12-16",
+          "url": "https://www.rfc-editor.org/errata/eid5210"
+        },
+        {
+          "id": 5318,
+          "rfc": 8259,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "7",
+          "submitted": "2018-04-04",
+          "url": "https://www.rfc-editor.org/errata/eid5318"
+        },
+        {
+          "id": 7383,
+          "rfc": 8259,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "3.  Values",
+          "submitted": "2023-03-12",
+          "url": "https://www.rfc-editor.org/errata/eid7383"
+        },
+        {
+          "id": 7600,
+          "rfc": 8259,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "6",
+          "submitted": "2023-08-11",
+          "url": "https://www.rfc-editor.org/errata/eid7600"
+        },
+        {
+          "id": 7603,
+          "rfc": 8259,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "1",
+          "submitted": "2023-08-13",
+          "url": "https://www.rfc-editor.org/errata/eid7603"
+        },
+        {
+          "id": 7650,
+          "rfc": 8259,
+          "status": "Held for Document Update",
+          "type": "Technical",
+          "section": "7",
+          "submitted": "2023-09-20",
+          "url": "https://www.rfc-editor.org/errata/eid7650"
+        },
+        {
+          "id": 8438,
+          "rfc": 8259,
+          "status": "Held for Document Update",
+          "type": "Editorial",
+          "section": "14.1",
+          "submitted": "2025-05-28",
+          "url": "https://www.rfc-editor.org/errata/eid8438"
+        }
+      ]
+    },
+    {
+      "id": "RFC8288",
+      "number": 8288,
+      "title": "Web Linking",
+      "date": {
+        "month": "October",
+        "year": 2017
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [
+        5988
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc8288",
+      "technicalErrata": [
+        {
+          "id": 5168,
+          "rfc": 8288,
+          "status": "Reported",
+          "type": "Editorial",
+          "section": "B.3",
+          "submitted": "2017-10-25",
+          "url": "https://www.rfc-editor.org/errata/eid5168"
+        },
+        {
+          "id": 5169,
+          "rfc": 8288,
+          "status": "Reported",
+          "type": "Editorial",
+          "section": "B.4",
+          "submitted": "2017-10-25",
+          "url": "https://www.rfc-editor.org/errata/eid5169"
+        },
+        {
+          "id": 5319,
+          "rfc": 8288,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "1.1",
+          "submitted": "2018-04-04",
+          "url": "https://www.rfc-editor.org/errata/eid5319"
+        },
+        {
+          "id": 5878,
+          "rfc": 8288,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "B.2",
+          "submitted": "2019-10-22",
+          "url": "https://www.rfc-editor.org/errata/eid5878"
+        }
+      ]
+    },
+    {
+      "id": "RFC8414",
+      "number": 8414,
+      "title": "OAuth 2.0 Authorization Server Metadata",
+      "date": {
+        "month": "June",
+        "year": 2018
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc8414",
+      "technicalErrata": [
+        {
+          "id": 7793,
+          "rfc": 8414,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "2",
+          "submitted": "2024-01-31",
+          "url": "https://www.rfc-editor.org/errata/eid7793"
+        }
+      ]
+    },
+    {
+      "id": "RFC8615",
+      "number": 8615,
+      "title": "Well-Known Uniform Resource Identifiers (URIs)",
+      "date": {
+        "month": "May",
+        "year": 2019
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [
+        7230,
+        7595
+      ],
+      "updatedBy": [],
+      "obsoletes": [
+        5785
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc8615",
+      "technicalErrata": []
+    },
+    {
+      "id": "RFC8707",
+      "number": 8707,
+      "title": "Resource Indicators for OAuth 2.0",
+      "date": {
+        "month": "February",
+        "year": 2020
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc8707",
+      "technicalErrata": [
+        {
+          "id": 6810,
+          "rfc": 8707,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "4",
+          "submitted": "2022-01-05",
+          "url": "https://www.rfc-editor.org/errata/eid6810"
+        }
+      ]
+    },
+    {
+      "id": "RFC8725",
+      "number": 8725,
+      "title": "JSON Web Token Best Current Practices",
+      "date": {
+        "month": "February",
+        "year": 2020
+      },
+      "status": "best current practice",
+      "stream": "IETF",
+      "bcp": [
+        "BCP225"
+      ],
+      "updates": [
+        7519
+      ],
+      "updatedBy": [],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc8725",
+      "technicalErrata": []
+    },
+    {
+      "id": "RFC8941",
+      "number": 8941,
+      "title": "Structured Field Values for HTTP",
+      "date": {
+        "month": "February",
+        "year": 2021
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [],
+      "obsoletedBy": [
+        9651
+      ],
+      "url": "https://www.rfc-editor.org/info/rfc8941",
+      "technicalErrata": []
+    },
+    {
+      "id": "RFC9068",
+      "number": 9068,
+      "title": "JSON Web Token (JWT) Profile for OAuth 2.0 Access Tokens",
+      "date": {
+        "month": "October",
+        "year": 2021
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc9068",
+      "technicalErrata": [
+        {
+          "id": 8802,
+          "rfc": 9068,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "2.2",
+          "submitted": "2026-03-04",
+          "url": "https://www.rfc-editor.org/errata/eid8802"
+        }
+      ]
+    },
+    {
+      "id": "RFC9110",
+      "number": 9110,
+      "title": "HTTP Semantics",
+      "date": {
+        "month": "June",
+        "year": 2022
+      },
+      "status": "internet standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [
+        3864
+      ],
+      "updatedBy": [],
+      "obsoletes": [
+        2818,
+        7230,
+        7231,
+        7232,
+        7233,
+        7235,
+        7538,
+        7615,
+        7694
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc9110",
+      "technicalErrata": [
+        {
+          "id": 7105,
+          "rfc": 9110,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "B.1.",
+          "submitted": "2022-08-26",
+          "url": "https://www.rfc-editor.org/errata/eid7105"
+        },
+        {
+          "id": 7109,
+          "rfc": 9110,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "15.4.9",
+          "submitted": "2022-08-31",
+          "url": "https://www.rfc-editor.org/errata/eid7109"
+        },
+        {
+          "id": 7138,
+          "rfc": 9110,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "12.5.1",
+          "submitted": "2022-09-23",
+          "url": "https://www.rfc-editor.org/errata/eid7138"
+        },
+        {
+          "id": 7306,
+          "rfc": 9110,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "14.1.1",
+          "submitted": "2023-01-13",
+          "url": "https://www.rfc-editor.org/errata/eid7306"
+        },
+        {
+          "id": 7419,
+          "rfc": 9110,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "8.3.2",
+          "submitted": "2023-04-11",
+          "url": "https://www.rfc-editor.org/errata/eid7419"
+        },
+        {
+          "id": 8268,
+          "rfc": 9110,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "B.2",
+          "submitted": "2025-01-28",
+          "url": "https://www.rfc-editor.org/errata/eid8268"
+        }
+      ]
+    },
+    {
+      "id": "RFC9111",
+      "number": 9111,
+      "title": "HTTP Caching",
+      "date": {
+        "month": "June",
+        "year": 2022
+      },
+      "status": "internet standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [
+        7234
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc9111",
+      "technicalErrata": [
+        {
+          "id": 9004,
+          "rfc": 9111,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "3.5",
+          "submitted": "2026-06-11",
+          "url": "https://www.rfc-editor.org/errata/eid9004"
+        }
+      ]
+    },
+    {
+      "id": "RFC9112",
+      "number": 9112,
+      "title": "HTTP/1.1",
+      "date": {
+        "month": "June",
+        "year": 2022
+      },
+      "status": "internet standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [
+        9931
+      ],
+      "obsoletes": [
+        7230
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc9112",
+      "technicalErrata": [
+        {
+          "id": 7744,
+          "rfc": 9112,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "1.2",
+          "submitted": "2023-12-31",
+          "url": "https://www.rfc-editor.org/errata/eid7744"
+        },
+        {
+          "id": 8284,
+          "rfc": 9112,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "C.3",
+          "submitted": "2025-02-06",
+          "url": "https://www.rfc-editor.org/errata/eid8284"
+        }
+      ]
+    },
+    {
+      "id": "RFC9116",
+      "number": 9116,
+      "title": "A File Format to Aid in Security Vulnerability Disclosure",
+      "date": {
+        "month": "April",
+        "year": 2022
+      },
+      "status": "informational",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc9116",
+      "technicalErrata": [
+        {
+          "id": 6946,
+          "rfc": 9116,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "4",
+          "submitted": "2022-04-28",
+          "url": "https://www.rfc-editor.org/errata/eid6946"
+        },
+        {
+          "id": 7264,
+          "rfc": 9116,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "2.5.5",
+          "submitted": "2022-12-10",
+          "url": "https://www.rfc-editor.org/errata/eid7264"
+        },
+        {
+          "id": 7743,
+          "rfc": 9116,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "4",
+          "submitted": "2023-12-30",
+          "url": "https://www.rfc-editor.org/errata/eid7743"
+        }
+      ]
+    },
+    {
+      "id": "RFC9205",
+      "number": 9205,
+      "title": "Building Protocols with HTTP",
+      "date": {
+        "month": "June",
+        "year": 2022
+      },
+      "status": "best current practice",
+      "stream": "IETF",
+      "bcp": [
+        "BCP56"
+      ],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [
+        3205
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc9205",
+      "technicalErrata": []
+    },
+    {
+      "id": "RFC9309",
+      "number": 9309,
+      "title": "Robots Exclusion Protocol",
+      "date": {
+        "month": "September",
+        "year": 2022
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc9309",
+      "technicalErrata": [
+        {
+          "id": 7124,
+          "rfc": 9309,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "5.2",
+          "submitted": "2022-09-10",
+          "url": "https://www.rfc-editor.org/errata/eid7124"
+        },
+        {
+          "id": 7128,
+          "rfc": 9309,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "2.2.2",
+          "submitted": "2022-09-13",
+          "url": "https://www.rfc-editor.org/errata/eid7128"
+        },
+        {
+          "id": 7995,
+          "rfc": 9309,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "2.2",
+          "submitted": "2024-06-18",
+          "url": "https://www.rfc-editor.org/errata/eid7995"
+        },
+        {
+          "id": 8895,
+          "rfc": 9309,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "2.3.1.5",
+          "submitted": "2026-04-28",
+          "url": "https://www.rfc-editor.org/errata/eid8895"
+        }
+      ]
+    },
+    {
+      "id": "RFC9449",
+      "number": 9449,
+      "title": "OAuth 2.0 Demonstrating Proof of Possession (DPoP)",
+      "date": {
+        "month": "September",
+        "year": 2023
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc9449",
+      "technicalErrata": [
+        {
+          "id": 7646,
+          "rfc": 9449,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "4.2",
+          "submitted": "2023-09-18",
+          "url": "https://www.rfc-editor.org/errata/eid7646"
+        }
+      ]
+    },
+    {
+      "id": "RFC9457",
+      "number": 9457,
+      "title": "Problem Details for HTTP APIs",
+      "date": {
+        "month": "July",
+        "year": 2023
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [
+        7807
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc9457",
+      "technicalErrata": [
+        {
+          "id": 7731,
+          "rfc": 9457,
+          "status": "Held for Document Update",
+          "type": "Editorial",
+          "section": "Appendix A says:",
+          "submitted": "2023-12-14",
+          "url": "https://www.rfc-editor.org/errata/eid7731"
+        },
+        {
+          "id": 8858,
+          "rfc": 9457,
+          "status": "Reported",
+          "type": "Technical",
+          "section": "Appendix A",
+          "submitted": "2026-03-28",
+          "url": "https://www.rfc-editor.org/errata/eid8858"
+        }
+      ]
+    },
+    {
+      "id": "RFC9557",
+      "number": 9557,
+      "title": "Date and Time on the Internet: Timestamps with Additional Information",
+      "date": {
+        "month": "April",
+        "year": 2024
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [
+        3339
+      ],
+      "updatedBy": [],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc9557",
+      "technicalErrata": []
+    },
+    {
+      "id": "RFC9562",
+      "number": 9562,
+      "title": "Universally Unique IDentifiers (UUIDs)",
+      "date": {
+        "month": "May",
+        "year": 2024
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [
+        4122
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc9562",
+      "technicalErrata": [
+        {
+          "id": 7929,
+          "rfc": 9562,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "B.2",
+          "submitted": "2024-05-09",
+          "url": "https://www.rfc-editor.org/errata/eid7929"
+        },
+        {
+          "id": 7931,
+          "rfc": 9562,
+          "status": "Reported",
+          "type": "Editorial",
+          "section": "1",
+          "submitted": "2024-05-10",
+          "url": "https://www.rfc-editor.org/errata/eid7931"
+        },
+        {
+          "id": 7955,
+          "rfc": 9562,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "5.1",
+          "submitted": "2024-05-24",
+          "url": "https://www.rfc-editor.org/errata/eid7955"
+        },
+        {
+          "id": 7958,
+          "rfc": 9562,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "4.1",
+          "submitted": "2024-05-25",
+          "url": "https://www.rfc-editor.org/errata/eid7958"
+        },
+        {
+          "id": 8288,
+          "rfc": 9562,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "6.1",
+          "submitted": "2025-02-08",
+          "url": "https://www.rfc-editor.org/errata/eid8288"
+        },
+        {
+          "id": 8695,
+          "rfc": 9562,
+          "status": "Verified",
+          "type": "Editorial",
+          "section": "7.1",
+          "submitted": "2026-01-07",
+          "url": "https://www.rfc-editor.org/errata/eid8695"
+        }
+      ]
+    },
+    {
+      "id": "RFC9651",
+      "number": 9651,
+      "title": "Structured Field Values for HTTP",
+      "date": {
+        "month": "September",
+        "year": 2024
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [
+        8941
+      ],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc9651",
+      "technicalErrata": [
+        {
+          "id": 8869,
+          "rfc": 9651,
+          "status": "Verified",
+          "type": "Technical",
+          "section": "3.3",
+          "submitted": "2026-04-06",
+          "url": "https://www.rfc-editor.org/errata/eid8869"
+        }
+      ]
+    },
+    {
+      "id": "RFC9700",
+      "number": 9700,
+      "title": "Best Current Practice for OAuth 2.0 Security",
+      "date": {
+        "month": "January",
+        "year": 2025
+      },
+      "status": "best current practice",
+      "stream": "IETF",
+      "bcp": [
+        "BCP240"
+      ],
+      "updates": [
+        6749,
+        6750,
+        6819
+      ],
+      "updatedBy": [],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc9700",
+      "technicalErrata": []
+    },
+    {
+      "id": "RFC9728",
+      "number": 9728,
+      "title": "OAuth 2.0 Protected Resource Metadata",
+      "date": {
+        "month": "April",
+        "year": 2025
+      },
+      "status": "proposed standard",
+      "stream": "IETF",
+      "bcp": [],
+      "updates": [],
+      "updatedBy": [],
+      "obsoletes": [],
+      "obsoletedBy": [],
+      "url": "https://www.rfc-editor.org/info/rfc9728",
+      "technicalErrata": []
+    }
+  ],
+  "drafts": [
+    {
+      "id": "draft-ietf-oauth-v2-1-15",
+      "title": "The OAuth 2.1 Authorization Framework",
+      "revision": "15",
+      "status": "active-internet-draft",
+      "updated": "2026-03-02",
+      "expires": "2026-09-03",
+      "url": "https://datatracker.ietf.org/doc/draft-ietf-oauth-v2-1/"
+    }
+  ]
+}

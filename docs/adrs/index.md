@@ -4,6 +4,7 @@
 
 - [ADR 0001: Road-map docs repo baseline and governance alignment](./adr-0001-road-map-baseline-alignment.md)
 - [ADR 0011: GitHub Project board automation uses thin paged queries and cursor checkpoints](./adr-0011-project-board-automation-query-budget.md)
+- [ADR 0012: RFC compliance uses pinned authorities and reviewed drift](./adr-0012-rfc-compliance-authority-and-drift.md)
 
 ## Game Service Bridge ADRs
 
