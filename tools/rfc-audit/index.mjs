@@ -184,7 +184,7 @@ export function renderReport(audit) {
     const gaps = rows.filter((row) => row.findingId).map((row) => row.findingId).join(", ") || "None verified";
     lines.push(`| ${repo.name} | \`${repo.pinnedCommit.slice(0, 12)}\` | ${repo.roles.join(", ") || "none"} | ${standards} | ${gaps} | ${escapeCell(repo.localState.summary)} |`);
   }
-  lines.push("", "## Scope notes", "", "- `unverified` is an explicit queue for clause-level evidence, not a compliance claim.", "- `delegated` means the integration boundary was checked while protocol internals remain owned by Node.js, browsers, Azure, TLS, CDN, or another named dependency.", "- OAuth 2.1 draft-15 is reported separately from published RFCs.", "- SSE, MCP, glTF, WebGPU, WebXR, IFC, STEP, and other non-IETF specifications are companion standards outside this clause-level RFC audit.", "");
+  lines.push("", "## Scope notes", "", "- `unverified` is an explicit queue for clause-level evidence, not a compliance claim.", "- `delegated` means the integration boundary was checked while protocol internals remain owned by Node.js, browsers, Azure, TLS, CDN, or another named dependency.", "- OAuth 2.1 draft-15 is reported separately from published RFCs.", "- Local checkout and dirty-worktree evidence is recorded separately in `local-state.json` and is excluded from authoritative scheduled drift checks.", "- SSE, MCP, glTF, WebGPU, WebXR, IFC, STEP, and other non-IETF specifications are companion standards outside this clause-level RFC audit.", "");
   return lines.join("\n");
 }
 
@@ -194,7 +194,7 @@ export async function fetchJson(url, token) {
   return response.json();
 }
 
-export async function inventoryRepositories({ workspaceRoot, policy, githubToken = process.env.GITHUB_TOKEN }) {
+export async function inventoryRepositories({ workspaceRoot, policy, githubToken = process.env.GITHUB_TOKEN, includeLocalState = true }) {
   if (policy.owner !== "Plasius-LTD") {
     throw new Error("RFC inventory is restricted to the governed Plasius-LTD organization.");
   }
@@ -202,7 +202,7 @@ export async function inventoryRepositories({ workspaceRoot, policy, githubToken
     ? await fetchAllRepositories(githubToken)
     : await repositoriesViaGitHubCli(policy.owner);
   const primary = remote.filter((repo) => !repo.archived && !repo.disabled && !repo.fork).sort((a, b) => a.name.localeCompare(b.name));
-  const local = await localRepositories(workspaceRoot);
+  const local = includeLocalState ? await localRepositories(workspaceRoot) : [];
   const repositories = [];
   for (const repo of primary) {
     const pinnedCommit = await remoteHead(repo.clone_url, repo.default_branch);
@@ -215,11 +215,25 @@ export async function inventoryRepositories({ workspaceRoot, policy, githubToken
       defaultBranch: repo.default_branch,
       pinnedCommit,
       roles: inferRoles(repo.name, policy),
-      localState: summarizeLocal(checkouts, pinnedCommit),
+      localState: includeLocalState
+        ? summarizeLocal(checkouts, pinnedCommit)
+        : { checkoutCount: null, summary: "Recorded separately in local-state.json", checkouts: [] },
       remoteUrl: repo.html_url
     });
   }
   return repositories;
+}
+
+export async function inventoryLocalState({ workspaceRoot, repositories }) {
+  const local = await localRepositories(workspaceRoot);
+  return repositories.map((repository) => {
+    const checkouts = local.filter((entry) => entry.slug?.toLowerCase() === repository.slug.toLowerCase());
+    return {
+      repository: repository.name,
+      pinnedCommit: repository.pinnedCommit,
+      localState: summarizeLocal(checkouts, repository.pinnedCommit),
+    };
+  });
 }
 
 async function fetchAllRepositories(token) {

@@ -9,6 +9,7 @@ import {
   buildApplicability,
   buildStandardsLock,
   inferRoles,
+  inventoryLocalState,
   inventoryRepositories,
   parseErrata,
   parseRfcIndex,
@@ -152,6 +153,16 @@ test("inventories authenticated remote defaults and records local deltas", async
     assert.equal(rows[0].pinnedCommit, head);
     assert.deepEqual(rows[0].roles, ["sample-role"]);
     assert.equal(rows[0].localState.summary, "matches authoritative main");
+    const remoteOnlyRows = await inventoryRepositories({
+      workspaceRoot: directory,
+      policy,
+      githubToken: "test-token",
+      includeLocalState: false,
+    });
+    assert.equal(remoteOnlyRows[0].localState.summary, "Recorded separately in local-state.json");
+    const localSnapshot = await inventoryLocalState({ workspaceRoot: directory, repositories: rows });
+    assert.equal(localSnapshot[0].repository, "sample");
+    assert.equal(localSnapshot[0].localState.summary, "matches authoritative main");
   } finally {
     globalThis.fetch = originalFetch;
     await rm(directory, { recursive: true, force: true });

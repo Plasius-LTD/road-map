@@ -31,6 +31,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
-          npm run rfc:audit:refresh
+          npm run rfc:audit:refresh -- --remote-only
           git diff --exit-code -- docs/compliance/rfc
-
