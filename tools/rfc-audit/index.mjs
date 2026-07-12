@@ -167,7 +167,7 @@ export function renderReport(audit) {
     `- Applicable classifications: ${audit.applicability.length}`,
     `- States: ${Object.entries(counts).sort().map(([key, value]) => `${key} ${value}`).join(", ")}`,
     "",
-    "## Verified gaps",
+    "## Verified findings and remediation status",
     "",
     "| Severity | Finding | RFC section | Repositories | State | Remediation |",
     "| --- | --- | --- | --- | --- | --- |",

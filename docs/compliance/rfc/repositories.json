@@ -8,17 +8,17 @@
       "slug": "Plasius-LTD/ai",
       "lifecycle": "active",
       "defaultBranch": "main",
-      "pinnedCommit": "574419e06e8d7a5d1e742e1e687ee2479219dab2",
+      "pinnedCommit": "76c859bda24a1774cd4df32a00103fc5ab34a0c9",
       "roles": [],
       "localState": {
         "checkoutCount": 1,
-        "summary": "matches authoritative main",
+        "summary": "1 checkout(s) differ from authoritative main",
         "checkouts": [
           {
             "path": "ai",
-            "branch": "main",
-            "head": "574419e06e8d7a5d1e742e1e687ee2479219dab2",
-            "matchesPinnedCommit": true,
+            "branch": "security/ai-deps-refresh",
+            "head": "bc3618b0bbe8cef6fb18bda07cfc348238c3bd28",
+            "matchesPinnedCommit": false,
             "dirtyFiles": 0
           }
         ]
@@ -31,17 +31,17 @@
       "slug": "Plasius-LTD/ai-config",
       "lifecycle": "active",
       "defaultBranch": "main",
-      "pinnedCommit": "9b5bab3335059793e8dd147201ccf5178043cf18",
+      "pinnedCommit": "d62429c63e9f3d55f45fa629447d3b2e794960d8",
       "roles": [],
       "localState": {
         "checkoutCount": 1,
-        "summary": "matches authoritative main",
+        "summary": "1 checkout(s) differ from authoritative main",
         "checkouts": [
           {
             "path": "ai-config",
-            "branch": "main",
-            "head": "9b5bab3335059793e8dd147201ccf5178043cf18",
-            "matchesPinnedCommit": true,
+            "branch": "security/ai-config-deps-refresh",
+            "head": "ccdb373b8f9bdef6565d1d07b8e1bb0ab772cc7b",
+            "matchesPinnedCommit": false,
             "dirtyFiles": 0
           }
         ]
@@ -54,17 +54,17 @@
       "slug": "Plasius-LTD/ai-evals",
       "lifecycle": "active",
       "defaultBranch": "main",
-      "pinnedCommit": "d680be0eaef4bbf8b8b121759e0d862b8857c8cc",
+      "pinnedCommit": "dfcbad99c3ed4e1f21696c5f0a3b34af1b124fae",
       "roles": [],
       "localState": {
         "checkoutCount": 1,
-        "summary": "matches authoritative main",
+        "summary": "1 checkout(s) differ from authoritative main",
         "checkouts": [
           {
             "path": "ai-evals",
-            "branch": "main",
-            "head": "d680be0eaef4bbf8b8b121759e0d862b8857c8cc",
-            "matchesPinnedCommit": true,
+            "branch": "security/ai-evals-deps-refresh",
+            "head": "34f6e43c7ef22b06e2441c488f7d0dcf5dfec135",
+            "matchesPinnedCommit": false,
             "dirtyFiles": 0
           }
         ]
@@ -204,17 +204,17 @@
       "slug": "Plasius-LTD/ai-providers",
       "lifecycle": "active",
       "defaultBranch": "main",
-      "pinnedCommit": "d9c063df9632aadb1e28c5814b327c57ca6ded8a",
+      "pinnedCommit": "b74c649e66035b4d06c0f77e22eb988aa4f1d59c",
       "roles": [],
       "localState": {
         "checkoutCount": 1,
-        "summary": "matches authoritative main",
+        "summary": "1 checkout(s) differ from authoritative main",
         "checkouts": [
           {
             "path": "ai-providers",
-            "branch": "main",
-            "head": "d9c063df9632aadb1e28c5814b327c57ca6ded8a",
-            "matchesPinnedCommit": true,
+            "branch": "security/ai-providers-deps-refresh",
+            "head": "2afee4e22338e8b7f4770771e5b50674bd4e0063",
+            "matchesPinnedCommit": false,
             "dirtyFiles": 0
           }
         ]
@@ -250,17 +250,17 @@
       "slug": "Plasius-LTD/ai-router",
       "lifecycle": "active",
       "defaultBranch": "main",
-      "pinnedCommit": "9d59a96eddbfeca6d85b5b62dc4e966df5543ff5",
+      "pinnedCommit": "bb35c9520628bd4423bf7f59353cc891d7905bd2",
       "roles": [],
       "localState": {
         "checkoutCount": 1,
-        "summary": "matches authoritative main",
+        "summary": "1 checkout(s) differ from authoritative main",
         "checkouts": [
           {
             "path": "ai-router",
-            "branch": "main",
-            "head": "9d59a96eddbfeca6d85b5b62dc4e966df5543ff5",
-            "matchesPinnedCommit": true,
+            "branch": "security/ai-router-deps-refresh",
+            "head": "4375fcd94adba34a2074f2457c3b5849b73a2866",
+            "matchesPinnedCommit": false,
             "dirtyFiles": 0
           }
         ]
@@ -273,17 +273,17 @@
       "slug": "Plasius-LTD/ai-speech",
       "lifecycle": "active",
       "defaultBranch": "main",
-      "pinnedCommit": "e71c1b53b97d5324aadfc50496323aa1a531a25e",
+      "pinnedCommit": "75154cfc3ac69e5502c78c219d7a40b499438ff2",
       "roles": [],
       "localState": {
         "checkoutCount": 1,
-        "summary": "matches authoritative main",
+        "summary": "1 checkout(s) differ from authoritative main",
         "checkouts": [
           {
             "path": "ai-speech",
             "branch": "main",
-            "head": "e71c1b53b97d5324aadfc50496323aa1a531a25e",
-            "matchesPinnedCommit": true,
+            "head": "604c6d5cf725ad3bfb727a5bc8a511126c11ca17",
+            "matchesPinnedCommit": false,
             "dirtyFiles": 0
           }
         ]
@@ -296,13 +296,13 @@
       "slug": "Plasius-LTD/analytics",
       "lifecycle": "active",
       "defaultBranch": "main",
-      "pinnedCommit": "089de1082cc50ca1800857b234d40e13f1a2f2b5",
+      "pinnedCommit": "abfb338fb16d146042e274c173072a398be51237",
       "roles": [
         "http"
       ],
       "localState": {
-        "checkoutCount": 1,
-        "summary": "1 checkout(s) differ from authoritative main",
+        "checkoutCount": 2,
+        "summary": "2 checkout(s) differ from authoritative main",
         "checkouts": [
           {
             "path": "analytics",
@@ -310,6 +310,13 @@
             "head": "031d1e5155db91df41a25cc3e1b74f650ff0fde7",
             "matchesPinnedCommit": false,
             "dirtyFiles": 0
+          },
+          {
+            "path": "analytics-rfc-remediation",
+            "branch": "feature/rfc9110-retry-after",
+            "head": "f6b8314c4a7fe2593576c814fa00e6cc3f30fea8",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 1
           }
         ]
       },
@@ -476,7 +483,7 @@
       "slug": "Plasius-LTD/auth",
       "lifecycle": "active",
       "defaultBranch": "main",
-      "pinnedCommit": "6e678edfa5ceb8524f18014bcc0a11ba069cbfa3",
+      "pinnedCommit": "4a965d778cfdbf93a4711757491de85d66fb5dd6",
       "roles": [
         "http",
         "oauth",
@@ -485,13 +492,13 @@
       ],
       "localState": {
         "checkoutCount": 1,
-        "summary": "matches authoritative main",
+        "summary": "1 checkout(s) differ from authoritative main",
         "checkouts": [
           {
             "path": "auth",
-            "branch": "main",
-            "head": "6e678edfa5ceb8524f18014bcc0a11ba069cbfa3",
-            "matchesPinnedCommit": true,
+            "branch": "feature/rfc-encoding-retry-after",
+            "head": "45f22ea010d3b1b1f37ac2798993c34ad92c7a32",
+            "matchesPinnedCommit": false,
             "dirtyFiles": 0
           }
         ]
@@ -504,17 +511,17 @@
       "slug": "Plasius-LTD/chatbot",
       "lifecycle": "active",
       "defaultBranch": "main",
-      "pinnedCommit": "77bb2a25adf7ea0d68cd65ccd7d1418e78deb7e8",
+      "pinnedCommit": "c57bc871b1711c651ce35a76b703df0c22e1b4a3",
       "roles": [],
       "localState": {
         "checkoutCount": 1,
-        "summary": "matches authoritative main",
+        "summary": "1 checkout(s) differ from authoritative main",
         "checkouts": [
           {
             "path": "chatbot",
-            "branch": "main",
-            "head": "77bb2a25adf7ea0d68cd65ccd7d1418e78deb7e8",
-            "matchesPinnedCommit": true,
+            "branch": "security/chatbot-deps-refresh",
+            "head": "2ace7946a43f05ba56c17c15c17d6f011bc235d5",
+            "matchesPinnedCommit": false,
             "dirtyFiles": 0
           }
         ]
@@ -1636,14 +1643,14 @@
       "roles": [],
       "localState": {
         "checkoutCount": 1,
-        "summary": "matches authoritative main",
+        "summary": "1 checkout(s) differ from authoritative main",
         "checkouts": [
           {
             "path": "nfr",
-            "branch": "main",
-            "head": "a1661dfb256146558ded36c1b3bae267979efe28",
-            "matchesPinnedCommit": true,
-            "dirtyFiles": 0
+            "branch": "security/nfr-deps-refresh",
+            "head": "832590951b578506d7bb7e56da8bfd64c79d89c0",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 1
           }
         ]
       },
@@ -1655,7 +1662,7 @@
       "slug": "Plasius-LTD/oauth2-core",
       "lifecycle": "active",
       "defaultBranch": "main",
-      "pinnedCommit": "1ce4a8f0386499342416ef12eda5de79327f9935",
+      "pinnedCommit": "6edc4e08c6ce2f9fd01c28b20fbf723a4e52fd3a",
       "roles": [
         "http",
         "oauth",
@@ -1664,13 +1671,13 @@
       ],
       "localState": {
         "checkoutCount": 1,
-        "summary": "matches authoritative main",
+        "summary": "1 checkout(s) differ from authoritative main",
         "checkouts": [
           {
             "path": "oauth2-core",
-            "branch": "main",
-            "head": "1ce4a8f0386499342416ef12eda5de79327f9935",
-            "matchesPinnedCommit": true,
+            "branch": "feature/rfc-token-profile-contracts",
+            "head": "f62e8bcc87e5950c2d73474070459caaad0e7ee9",
+            "matchesPinnedCommit": false,
             "dirtyFiles": 0
           }
         ]
@@ -1683,7 +1690,7 @@
       "slug": "Plasius-LTD/oauth2-issuer",
       "lifecycle": "active",
       "defaultBranch": "main",
-      "pinnedCommit": "da09a194893d6815a384aedf4c19b0cb5d5c46c1",
+      "pinnedCommit": "610a6b115670c1c68409d86a26c99ee01e44c896",
       "roles": [
         "http",
         "oauth",
@@ -1692,13 +1699,13 @@
       ],
       "localState": {
         "checkoutCount": 1,
-        "summary": "matches authoritative main",
+        "summary": "1 checkout(s) differ from authoritative main",
         "checkouts": [
           {
             "path": "oauth2-issuer",
-            "branch": "main",
-            "head": "da09a194893d6815a384aedf4c19b0cb5d5c46c1",
-            "matchesPinnedCommit": true,
+            "branch": "feature/rfc-issuer-remediation",
+            "head": "68bfef1890a40e05bda545d379b7b568f696089c",
+            "matchesPinnedCommit": false,
             "dirtyFiles": 0
           }
         ]
@@ -1711,14 +1718,22 @@
       "slug": "Plasius-LTD/offline-cache",
       "lifecycle": "active",
       "defaultBranch": "main",
-      "pinnedCommit": "826c26dbbc9a2dcf2b15fb16e08457fafa38cbfc",
+      "pinnedCommit": "8ce5e32569962bff6e924e2fd20d1545868366d1",
       "roles": [
         "http"
       ],
       "localState": {
-        "checkoutCount": 0,
-        "summary": "not checked out",
-        "checkouts": []
+        "checkoutCount": 1,
+        "summary": "1 checkout(s) differ from authoritative main",
+        "checkouts": [
+          {
+            "path": "offline-cache-rfc-remediation",
+            "branch": "feature/rfc9111-no-store",
+            "head": "1b696d4323aaa6e656346b083b6879d19d4f404e",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 1
+          }
+        ]
       },
       "remoteUrl": "https://github.com/Plasius-LTD/offline-cache"
     },
@@ -1728,7 +1743,7 @@
       "slug": "Plasius-LTD/plasius-ltd-site",
       "lifecycle": "active",
       "defaultBranch": "main",
-      "pinnedCommit": "bdbc9efc5868a9310d692c46d1410aebd2dcd363",
+      "pinnedCommit": "f14c8b7499a502353270c37e698612e0c0bc47d5",
       "roles": [
         "http",
         "oauth",
@@ -1736,8 +1751,8 @@
         "web-security"
       ],
       "localState": {
-        "checkoutCount": 7,
-        "summary": "7 checkout(s) differ from authoritative main",
+        "checkoutCount": 8,
+        "summary": "8 checkout(s) differ from authoritative main",
         "checkouts": [
           {
             "path": "plasius-ltd-site",
@@ -1776,8 +1791,15 @@
           },
           {
             "path": "plasius-ltd-site-mcp-provider-signin",
-            "branch": "agent/mcp-chooser-no-transform",
-            "head": "3ca7c8d6dd8db9591b35aa396115c98cafd7f887",
+            "branch": "agent/secretref-oidc-preference",
+            "head": "956449b0eb0570144a2a31457d597b00ef3880ff",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 3
+          },
+          {
+            "path": "plasius-ltd-site-rfc-remediation",
+            "branch": "fix/rfc6797-closeout-secretrefs",
+            "head": "8fa675935f7fe4f7ebeb22d1486b560525606e82",
             "matchesPinnedCommit": false,
             "dirtyFiles": 0
           },
@@ -1867,17 +1889,17 @@
       "slug": "Plasius-LTD/profile",
       "lifecycle": "active",
       "defaultBranch": "main",
-      "pinnedCommit": "0617be22cbe91898214b202d3ff01ac207df265f",
+      "pinnedCommit": "52af1d39e61da07fecead3e9e71a84d8db4ba6eb",
       "roles": [],
       "localState": {
         "checkoutCount": 1,
-        "summary": "matches authoritative main",
+        "summary": "1 checkout(s) differ from authoritative main",
         "checkouts": [
           {
             "path": "profile",
-            "branch": "main",
-            "head": "0617be22cbe91898214b202d3ff01ac207df265f",
-            "matchesPinnedCommit": true,
+            "branch": "security/profile-deps-refresh",
+            "head": "30e88f0c87637cdb7dc14352f755e3b1951bff7d",
+            "matchesPinnedCommit": false,
             "dirtyFiles": 0
           }
         ]
@@ -1962,9 +1984,9 @@
           {
             "path": "road-map",
             "branch": "feature/rfc-compliance-audit",
-            "head": "0685bdd2738e479d5c0b836f843714e293984dbe",
-            "matchesPinnedCommit": true,
-            "dirtyFiles": 9
+            "head": "6ac348c0ac7ddad6d6b0c07aff78a1d98eb2a107",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 3
           }
         ]
       },
@@ -2068,20 +2090,20 @@
       "slug": "Plasius-LTD/schema",
       "lifecycle": "active",
       "defaultBranch": "main",
-      "pinnedCommit": "66d7c10de7dce924171d433c3c23a89c4b33ceef",
+      "pinnedCommit": "18bc4b80291744f143fb239af365885ea09127c9",
       "roles": [
         "structured-data"
       ],
       "localState": {
         "checkoutCount": 1,
-        "summary": "matches authoritative main",
+        "summary": "1 checkout(s) differ from authoritative main",
         "checkouts": [
           {
             "path": "schema",
-            "branch": "main",
-            "head": "66d7c10de7dce924171d433c3c23a89c4b33ceef",
-            "matchesPinnedCommit": true,
-            "dirtyFiles": 0
+            "branch": "feature/rfc-validation-alignment",
+            "head": "6676bd510e92ec1b5100601198b603c3736dd512",
+            "matchesPinnedCommit": false,
+            "dirtyFiles": 1
           }
         ]
       },
@@ -2214,19 +2236,19 @@
       "slug": "Plasius-LTD/translations",
       "lifecycle": "active",
       "defaultBranch": "main",
-      "pinnedCommit": "937afe859a05336fae542f3cc4c422e5b17bae40",
+      "pinnedCommit": "def5acc842da495eec4e23507ed736902c9fcb1c",
       "roles": [
         "structured-data"
       ],
       "localState": {
         "checkoutCount": 1,
-        "summary": "matches authoritative main",
+        "summary": "1 checkout(s) differ from authoritative main",
         "checkouts": [
           {
             "path": "translations",
-            "branch": "main",
-            "head": "937afe859a05336fae542f3cc4c422e5b17bae40",
-            "matchesPinnedCommit": true,
+            "branch": "feature/rfc5646-shared-validation",
+            "head": "86cc6abf361a40e78c3cbab4ceaa74f1896ab2f7",
+            "matchesPinnedCommit": false,
             "dirtyFiles": 0
           }
         ]
@@ -2287,7 +2309,7 @@
       "slug": "Plasius-LTD/voice",
       "lifecycle": "active",
       "defaultBranch": "main",
-      "pinnedCommit": "af380d0367a12aa92053a934d6e308b0685dc964",
+      "pinnedCommit": "54dafd29b9ee86a4307a25a9974c30f5111ab8b0",
       "roles": [],
       "localState": {
         "checkoutCount": 1,
@@ -2296,7 +2318,7 @@
           {
             "path": "voice",
             "branch": "main",
-            "head": "af380d0367a12aa92053a934d6e308b0685dc964",
+            "head": "54dafd29b9ee86a4307a25a9974c30f5111ab8b0",
             "matchesPinnedCommit": true,
             "dirtyFiles": 0
           }

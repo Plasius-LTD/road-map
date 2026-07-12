@@ -8,6 +8,9 @@ All notable changes to this repository are tracked here.
   lock, applicability and verified-gap reports, deterministic audit tooling,
   tests, ADR 0012, and a monthly read-only drift workflow for Task `#526` under
   Feature `Plasius-LTD/plasius-ltd-site#1477`.
+- Refreshed the pinned default-branch inventory after remediation and recorded
+  merged, released, and production-probed findings as conformant while retaining
+  the explicit RFC 5646 registry-membership limitation and DPoP non-applicability.
 
 - Added a `project:board` helper CLI, tests, and runbook for low-cost
   `Plasius-LTD-site` Project discovery and targeted status updates, plus ADR

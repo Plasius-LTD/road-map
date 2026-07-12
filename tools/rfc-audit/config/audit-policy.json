@@ -20,11 +20,11 @@
       "section": "2.1, 4",
       "requirement": "MUST",
       "repositories": ["oauth2-core", "oauth2-issuer", "plasius-ltd-site"],
-      "state": "nonconformant",
-      "summary": "JWT access tokens are emitted with typ JWT and verifiers do not require at+jwt.",
-      "sourceEvidence": ["oauth2-issuer/src/index.ts", "plasius-ltd-site/backend/src/lib/chatgpt-mcp-oauth-storage.ts"],
-      "testEvidence": [],
-      "remediation": "Per-repository Tasks required: emit and verify at+jwt while retaining a controlled migration path."
+      "state": "conformant",
+      "summary": "Access-token issuers and verifiers now emit and require the RFC 9068 at+jwt media type while rejecting legacy JWT headers.",
+      "sourceEvidence": ["oauth2-core/src/index.ts", "oauth2-issuer/src/index.ts", "plasius-ltd-site/backend/src/lib/chatgpt-mcp-oauth-storage.ts"],
+      "testEvidence": ["oauth2-core RFC 9068 JOSE header tests", "oauth2-issuer access-token round-trip tests", "plasius-ltd-site ChatGPT MCP OAuth integration tests"],
+      "remediation": "Resolved on the authoritative main branches and released for package consumers."
       ,"remediationReferences": ["Plasius-LTD/oauth2-core#2", "Plasius-LTD/oauth2-core#3", "Plasius-LTD/oauth2-issuer#2", "Plasius-LTD/oauth2-issuer#3", "Plasius-LTD/plasius-ltd-site#1480", "Plasius-LTD/plasius-ltd-site#1481"]
     },
     {
@@ -34,11 +34,11 @@
       "section": "4, 5, 7, 8, 9",
       "requirement": "MUST",
       "repositories": ["oauth2-issuer"],
-      "state": "nonconformant",
-      "summary": "The optional DPoP path checks proof presence and cnf.jkt only; it does not validate the proof signature, claims, key binding, ath, or replay.",
+      "state": "not_applicable",
+      "summary": "The incomplete optional DPoP path was removed from advertised behavior and now fails closed; the issuer does not claim RFC 9449 support.",
       "sourceEvidence": ["oauth2-issuer/src/index.ts"],
-      "testEvidence": [],
-      "remediation": "Disable the incomplete advertised mode or implement the complete RFC 9449 verification pipeline."
+      "testEvidence": ["oauth2-issuer DPoP fail-closed and metadata tests"],
+      "remediation": "Resolved by disabling the incomplete mode; a future complete implementation requires separate governed work."
       ,"remediationReferences": ["Plasius-LTD/oauth2-issuer#2", "Plasius-LTD/oauth2-issuer#3"]
     },
     {
@@ -48,11 +48,11 @@
       "section": "2.3.1, 3.2.1",
       "requirement": "MUST",
       "repositories": ["oauth2-issuer"],
-      "state": "nonconformant",
-      "summary": "Metadata advertises client_secret_basic/client_secret_post and registration stores secrets, but token exchange does not authenticate them.",
+      "state": "conformant",
+      "summary": "Confidential-client token exchanges authenticate registered secrets with a constant-time digest comparison before issuing tokens.",
       "sourceEvidence": ["oauth2-issuer/src/index.ts"],
-      "testEvidence": [],
-      "remediation": "Add constant-time confidential-client authentication or restrict advertised methods to none."
+      "testEvidence": ["oauth2-issuer confidential-client authorization-code and refresh-token tests"],
+      "remediation": "Resolved on main and released in @plasius/oauth2-issuer."
       ,"remediationReferences": ["Plasius-LTD/oauth2-issuer#2", "Plasius-LTD/oauth2-issuer#3"]
     },
     {
@@ -62,11 +62,11 @@
       "section": "7.1",
       "requirement": "SHOULD / adopted platform policy",
       "repositories": ["api", "plasius-ltd-site"],
-      "state": "partial",
-      "summary": "Source middleware emits Strict-Transport-Security, but read-only production probes did not observe it on public HTTPS or OAuth metadata responses.",
-      "sourceEvidence": ["api/src/middleware/transportSecurity.ts", "plasius-ltd-site/docs/adrs/adr-0016-security-header-baseline.md"],
-      "testEvidence": ["2026-07-12 read-only HTTPS probes"],
-      "remediation": "Trace the CDN/edge header path and restore the accepted HSTS policy through the approved deployment workflow."
+      "state": "conformant",
+      "summary": "The public ACA frontend boundary emits the adopted max-age=31536000; includeSubDomains HSTS policy on static, health, and proxied responses.",
+      "sourceEvidence": ["api/src/middleware/transportSecurity.ts", "plasius-ltd-site/infra/docker/frontend-static-server.js", "plasius-ltd-site/docs/adrs/adr-0016-backend-https-transport-security-baseline.md"],
+      "testEvidence": ["plasius-ltd-site production static-server tests", "production CD run 29195194885", "2026-07-12 post-deploy read-only HTTPS probes"],
+      "remediation": "Resolved through the approved production CD path with a release-blocking live-header check."
       ,"remediationReferences": ["Plasius-LTD/api#29", "Plasius-LTD/plasius-ltd-site#1480", "Plasius-LTD/plasius-ltd-site#1481"]
     },
     {
@@ -76,11 +76,11 @@
       "section": "5.2.1.5, 5.2.2.5",
       "requirement": "MUST NOT",
       "repositories": ["offline-cache", "plasius-ltd-site"],
-      "state": "nonconformant",
-      "summary": "Offline cache implementations store successful responses without excluding no-store requests or responses.",
+      "state": "conformant",
+      "summary": "Offline cache implementations refuse request and response no-store entries, remove legacy entries, and cover all supported cache strategies.",
       "sourceEvidence": ["offline-cache/src/index.ts", "plasius-ltd-site/frontend/public/offline-cache-worker.js"],
-      "testEvidence": [],
-      "remediation": "Refuse storage and reuse for no-store and add cache-directive contract tests."
+      "testEvidence": ["offline-cache RFC 9111 request/response directive tests", "plasius-ltd-site deployed worker cache-strategy tests"],
+      "remediation": "Resolved on the authoritative main branches and released for package consumers."
       ,"remediationReferences": ["Plasius-LTD/offline-cache#4", "Plasius-LTD/offline-cache#5", "Plasius-LTD/plasius-ltd-site#1480", "Plasius-LTD/plasius-ltd-site#1481"]
     },
     {
@@ -91,10 +91,10 @@
       "requirement": "MUST",
       "repositories": ["schema", "translations"],
       "state": "partial",
-      "summary": "The BCP 47 validator implements a narrow, case-sensitive subset while documentation implies general BCP 47 validity.",
+      "summary": "Schema and translations now share a documented, case-insensitive RFC 5646 subset; full IANA registry membership remains intentionally outside the validator.",
       "sourceEvidence": ["schema/src/validation/languageCode.BCP47.ts", "translations/src/i18n/i18n.ts"],
-      "testEvidence": [],
-      "remediation": "Implement or clearly expose a standards-accurate validator in schema before updating consumers."
+      "testEvidence": ["schema language-tag positive/negative fixtures", "translations public-boundary and URL-construction validation tests"],
+      "remediation": "Safe interoperability and documentation gaps are resolved; the remaining partial state records the explicit registry-membership limitation."
       ,"remediationReferences": ["Plasius-LTD/schema#25", "Plasius-LTD/schema#26", "Plasius-LTD/translations#28"]
     },
     {
@@ -104,11 +104,11 @@
       "section": "4, 5",
       "requirement": "interoperability",
       "repositories": ["auth"],
-      "state": "nonconformant",
-      "summary": "Login return paths use btoa directly and raw Base64 query data, failing Unicode paths and URL-safe transport assumptions.",
+      "state": "conformant",
+      "summary": "Login return paths encode UTF-8 bytes with unpadded base64url and reject malformed state before navigation.",
       "sourceEvidence": ["auth/src/lib/login.ts"],
-      "testEvidence": [],
-      "remediation": "Encode UTF-8 bytes and use a documented base64url or percent-encoded representation."
+      "testEvidence": ["auth Unicode and malformed base64url login-state tests"],
+      "remediation": "Resolved on main and released in @plasius/auth."
       ,"remediationReferences": ["Plasius-LTD/auth#21", "Plasius-LTD/auth#22"]
     },
     {
@@ -118,11 +118,11 @@
       "section": "10.2.3",
       "requirement": "syntax/interoperability",
       "repositories": ["analytics", "auth"],
-      "state": "partial",
-      "summary": "Retry-After parsing accepts non-integer delay values; one implementation also lacks a maximum wait bound.",
+      "state": "conformant",
+      "summary": "Retry-After parsing requires integer delay-seconds, supports all HTTP-date forms, rejects malformed values, and enforces an operational cap.",
       "sourceEvidence": ["analytics/src/journey/transport.ts", "auth/src/lib/authorizedFetch.ts"],
-      "testEvidence": [],
-      "remediation": "Require the delay-seconds grammar, retain HTTP-date support, and enforce an operational cap."
+      "testEvidence": ["auth Retry-After grammar/date tests", "analytics Retry-After grammar and three HTTP-date form tests"],
+      "remediation": "Resolved on the authoritative main branches and released for package consumers."
       ,"remediationReferences": ["Plasius-LTD/auth#21", "Plasius-LTD/auth#22", "Plasius-LTD/analytics#31", "Plasius-LTD/analytics#32"]
     },
     {
@@ -132,11 +132,11 @@
       "section": "all (obsoletes RFC 4122)",
       "requirement": "documentation",
       "repositories": ["schema"],
-      "state": "partial",
-      "summary": "The public validator and documentation cite obsolete RFC 4122 and implement only the legacy UUID version subset.",
+      "state": "conformant",
+      "summary": "The compatibility-named public validator documents RFC 9562 and accepts versions 1 through 8 plus Nil and Max UUID values.",
       "sourceEvidence": ["schema/src/validation/uuid.RFC4122.ts"],
-      "testEvidence": [],
-      "remediation": "Preserve compatibility aliases while documenting the RFC 9562 successor and supported subset."
+      "testEvidence": ["schema RFC 9562 version, Nil, Max, and invalid UUID fixtures"],
+      "remediation": "Resolved on main and released in @plasius/schema while preserving the compatibility filename."
       ,"remediationReferences": ["Plasius-LTD/schema#25", "Plasius-LTD/schema#26"]
     }
   ]
