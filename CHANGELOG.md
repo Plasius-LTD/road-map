@@ -4,6 +4,8 @@ All notable changes to this repository are tracked here.
 
 ## [Unreleased]
 
+- Security: Pinned patched transitive npm dependencies to clear the current audit baseline.
+
 - Added the 93-repository RFC compliance manifest, official RFC/errata metadata
   lock, applicability and verified-gap reports, deterministic audit tooling,
   tests, ADR 0012, and a monthly read-only drift workflow for Task `#526` under
