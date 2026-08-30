@@ -31,9 +31,9 @@ jobs:
 
   validate:
     needs: trusted_head
-    if: ${{ always() }}
-    # Trusted main jobs are pinned to the quarantined public-CI runner group.
-    runs-on: ${{ fromJSON(github.event_name == 'pull_request' && '["ubuntu-latest"]' || '["self-hosted","Linux","X64"]') }}
+    if: ${{ always() && github.event_name == 'pull_request' }}
+    # Pull requests run on GitHub-hosted capacity.
+    runs-on: ubuntu-latest
 
     steps:
       - name: Enforce trusted head admission
@@ -65,3 +65,18 @@ jobs:
 
       - name: Coverage
         run: npm run test:coverage
+
+  validate-main:
+    needs: trusted_head
+    if: ${{ github.event_name != 'pull_request' }}
+    # Trusted main jobs are pinned to the quarantined public-CI runner group.
+    runs-on:
+      group: Public CI - Quarantined
+      labels:
+        - self-hosted
+        - Linux
+        - X64
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - uses: ./.github/actions/road-map-ci
