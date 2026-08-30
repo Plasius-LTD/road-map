@@ -1,0 +1,40 @@
+name: Road-map CI
+description: Run road-map validation gates
+runs:
+  using: composite
+  steps:
+    - name: Enforce trusted head admission
+      shell: bash
+      run: |
+        set -euo pipefail
+        if [ "${{ github.event_name }}" = "pull_request" ] && [ "${{ needs.trusted_head.result }}" != "success" ]; then
+          echo "Trusted head admission failed; refusing validation." >&2
+          exit 1
+        fi
+
+    - name: Set up Node 24
+      uses: actions/setup-node@v4
+      with:
+        node-version: 24
+        cache: npm
+
+    - name: Install dependencies
+      shell: bash
+      run: npm ci
+
+    - name: Build
+      shell: bash
+      run: npm run build
+
+    - name: Test
+      shell: bash
+      run: npm test
+
+    - name: Typecheck
+      shell: bash
+      run: npm run typecheck
+
+    - name: Coverage
+      shell: bash
+      run: npm run test:coverage
+
