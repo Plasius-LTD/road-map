@@ -31,10 +31,17 @@ jobs:
 
   validate:
     needs: trusted_head
-    if: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository }}
-    runs-on: ${{ fromJSON(github.event_name == 'pull_request' && '["ubuntu-latest"]' || '["self-hosted","Linux","X64"]') }}
+    if: ${{ always() }}
+    # Trusted main jobs are pinned to the quarantined public-CI runner group.
+    runs-on: ${{ fromJSON(github.event_name == 'pull_request' && '{"labels":["ubuntu-latest"]}' || '{"group":"Public CI - Quarantined","labels":["self-hosted","Linux","X64"]}') }}
 
     steps:
+      - name: Enforce trusted head admission
+        if: ${{ needs.trusted_head.result != 'success' }}
+        run: |
+          echo "Trusted head admission failed; refusing validation." >&2
+          exit 1
+
       - name: Check out repository
         uses: actions/checkout@v4
 
