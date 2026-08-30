@@ -69,13 +69,8 @@ jobs:
   validate-main:
     needs: trusted_head
     if: ${{ github.event_name != 'pull_request' }}
-    # Trusted main jobs are pinned to the quarantined public-CI runner group.
-    runs-on:
-      group: Public CI - Quarantined
-      labels:
-        - self-hosted
-        - Linux
-        - X64
+    # Match the approved Schema runner selection for trusted main validation.
+    runs-on: ${{ fromJSON(github.event_name == 'pull_request' && '["ubuntu-latest"]' || '["self-hosted","Linux","X64"]') }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
