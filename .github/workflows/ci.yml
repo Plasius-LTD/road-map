@@ -31,7 +31,7 @@ jobs:
 
   validate:
     needs: trusted_head
-    if: ${{ github.event_name == 'pull_request' }}
+    if: ${{ always() && github.event_name == 'pull_request' }}
     # Pull requests run on GitHub-hosted capacity.
     runs-on: ubuntu-latest
 
