@@ -18,6 +18,13 @@
     "typecheck": "node --check tools/adr-index/cli.mjs && node --check tools/adr-index/indexer.mjs && node --check tools/adr-index/test/indexer.test.mjs && node --check tools/adr-index/test/cli.test.mjs && node --check tools/adr-index/test/render.test.mjs && node --check tools/project-board/cli.mjs && node --check tools/project-board/index.mjs && node --check tools/project-board/test/index.test.mjs && node --check tools/project-board/test/cli.test.mjs && node --check tools/rfc-audit/cli.mjs && node --check tools/rfc-audit/index.mjs && node --check tools/rfc-audit/test/index.test.mjs && node --check tools/rfc-audit/test/cli.test.mjs"
   },
   "packageManager": "npm@11.6.2",
+  "overrides": {
+    "brace-expansion": "5.0.9",
+    "minimatch@9.0.9": {
+      "brace-expansion": "2.1.4"
+    },
+    "nanoid": "3.3.18"
+  },
   "engines": {
     "node": ">=24"
   },
