@@ -73,9 +73,7 @@ jobs:
     runs-on:
       group: Public CI - Quarantined
       labels:
-        - self-hosted
-        - Linux
-        - X64
+        self-hosted
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
