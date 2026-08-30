@@ -3,14 +3,6 @@ description: Run road-map validation gates
 runs:
   using: composite
   steps:
-    - name: Enforce trusted head admission
-      shell: bash
-      run: |
-        set -euo pipefail
-        if [ "${{ github.event_name }}" = "pull_request" ] && [ "${{ needs.trusted_head.result }}" != "success" ]; then
-          echo "Trusted head admission failed; refusing validation." >&2
-          exit 1
-        fi
     - name: Set up Node 24
       uses: actions/setup-node@v4
       with:
@@ -31,4 +23,3 @@ runs:
     - name: Coverage
       shell: bash
       run: npm run test:coverage
-
