@@ -4,6 +4,8 @@ All notable changes to this repository are tracked here.
 
 ## [Unreleased]
 
+- Refresh npm dependency lockfile to current supported stable versions (weekly maintenance, 2026-09-28).
+
 - Security: Pinned patched transitive npm dependencies to clear the current audit baseline.
 
 - Added the 93-repository RFC compliance manifest, official RFC/errata metadata
