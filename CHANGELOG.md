@@ -4,6 +4,8 @@ All notable changes to this repository are tracked here.
 
 ## [Unreleased]
 
+- Limit remote npm cache exports to disposable GitHub-hosted CI jobs so persistent runner cleanup cannot delay validated releases.
+
 - Refresh npm dependency lockfile to current supported stable versions (weekly maintenance, 2026-09-28).
 
 - Security: Pinned patched transitive npm dependencies to clear the current audit baseline.
