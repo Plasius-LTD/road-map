@@ -110,3 +110,7 @@ committed automatically.
 - Release license: [`LICENSE`](./LICENSE)
 - ADR index: [`docs/adrs/index.md`](./docs/adrs/index.md)
 - TDR index: [`docs/tdrs/index.md`](./docs/tdrs/index.md)
+
+### Coverage toolchain maintenance
+
+Coverage uses c8 12 on Node 24. The test-exclude subtree pins glob 14.0.6 and minimatch 11.0.9 to avoid the development-tooling advisories affecting its declared older ranges. Validate coverage include/exclude behavior and the full test suite when updating these scoped overrides; remove them once upstream supports patched versions. Coverage thresholds remain unchanged.
