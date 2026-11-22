@@ -4,6 +4,8 @@ All notable changes to this repository are tracked here.
 
 ## [Unreleased]
 
+- Refresh supported npm dependency and security tooling baselines; preserve runtime API contracts (weekly maintenance, 2026-11-22).
+
 - Update c8 to 12 and pin patched glob/minimatch within its test-exclude tooling; retain coverage thresholds and verify existing inclusion/exclusion behavior.
 
 - Refresh npm dependency lockfile to current supported stable versions (weekly maintenance, 2026-10-04).
