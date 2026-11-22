@@ -4,6 +4,8 @@ All notable changes to this repository are tracked here.
 
 ## [Unreleased]
 
+- Update c8 to 12 and pin patched glob/minimatch within its test-exclude tooling; retain coverage thresholds and verify existing inclusion/exclusion behavior.
+
 - Refresh npm dependency lockfile to current supported stable versions (weekly maintenance, 2026-10-04).
 
 - Limit remote npm cache exports to disposable GitHub-hosted CI jobs so persistent runner cleanup cannot delay validated releases.
